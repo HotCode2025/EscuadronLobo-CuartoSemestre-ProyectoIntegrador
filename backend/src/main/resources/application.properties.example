@@ -1,0 +1,63 @@
+#spring.application.name=wolfforge
+
+# Conexión a PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/wolfforge
+spring.datasource.username=postgres
+spring.datasource.password=TU_PASSWORD_LOCAL
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Dialecto de PostgreSQL
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+# Crear/actualizar tablas automáticamente
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Configuración adicional para PostgreSQL
+spring.jpa.properties.hibernate.format_sql=true
+
+# Clave secreta para firmar JWT (32 caracteres mínimo)
+jwt.secret=TU_CLAVE_SECRETA_DE_32_CARACTERES_MINIMO
+
+logging.level.org.springframework.security=INFO
+logging.level.ar.com.wolfforge=DEBUG
+logging.level.org.springframework.web=INFO
+
+# swagger-ui custom path
+springdoc.swagger-ui.path=/swagger-ui.html
+springdoc.api-docs.path=/v3/api-docs
+
+# Nota: Las imágenes ahora se manejan con URLs externas (Imgur, etc.)
+# No se almacenan archivos localmente en el servidor
+
+# URL del frontend (para CORS)
+frontend.url=http://localhost:3000
+
+# ========================================
+# CONFIGURACIÓN DE MERCADO PAGO
+# ========================================
+
+# Access Token de Mercado Pago (Cuenta de Vendedor de Prueba)
+# Obtenerlo de: https://www.mercadopago.com.ar/developers/panel/app -> Credenciales
+# IMPORTANTE: generar credenciales de prueba propias, nunca credenciales de producción
+mercadopago.access-token=TU_ACCESS_TOKEN_DE_PRUEBA
+
+# URLs de retorno después del pago
+# IMPORTANTE: Mercado Pago exige HTTPS para poder volver solo (auto_return).
+# Por eso apuntan al backend (vía ngrok, que SÍ es HTTPS), y el backend
+# redirige al frontend local. Ver RedireccionPagoController.
+# Reemplazá por TU URL de ngrok (cada integrante tiene la suya).
+mercadopago.url.success=https://TU-URL-DE-NGROK.ngrok-free.dev/pago/success
+mercadopago.url.failure=https://TU-URL-DE-NGROK.ngrok-free.dev/pago/failure
+mercadopago.url.pending=https://TU-URL-DE-NGROK.ngrok-free.dev/pago/pending
+
+# URL del frontend local, adonde el backend redirige después de recibir la vuelta de MP
+app.frontend-url=http://localhost:3000
+
+# URL del webhook (debe ser HTTPS en producción)
+# IMPORTANTE: La URL debe incluir el prefijo /api/webhooks
+mercadopago.webhook.url=https://TU-URL-DE-NGROK.ngrok-free.dev/api/webhooks/mercadopago/notificacion
+
+# Clave secreta del webhook (panel de MP -> tu app -> Webhooks -> Configurar notificaciones)
+# Se usa para validar que las notificaciones realmente vienen de Mercado Pago (firma HMAC-SHA256)
+mercadopago.webhook.secret=TU_WEBHOOK_SECRET

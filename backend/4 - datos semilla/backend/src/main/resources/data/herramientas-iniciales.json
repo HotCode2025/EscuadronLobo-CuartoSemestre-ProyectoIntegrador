@@ -1,0 +1,2750 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Admin",
+      "email": "admin@wolfforge.com",
+      "contraseña": "admin1234",
+      "numeroTelefonico": "54321",
+      "direccion": {
+        "calle": "admin",
+        "ciudad": "admin",
+        "estado": "admin",
+        "codigoPostal": "4000",
+        "pais": "admin"
+      },
+      "rol": "ADMINISTRADOR"
+    }
+  ],
+  "categorias": [
+    {
+      "nombre": "Taladros"
+    },
+    {
+      "nombre": "Sierras"
+    },
+    {
+      "nombre": "Lijadoras"
+    },
+    {
+      "nombre": "Amoladoras"
+    },
+    {
+      "nombre": "Rotomartillos"
+    },
+    {
+      "nombre": "Destornilladores"
+    },
+    {
+      "nombre": "Herramientas manuales"
+    },
+    {
+      "nombre": "Accesorios y consumibles"
+    },
+    {
+      "nombre": "Fijaciones"
+    },
+    {
+      "nombre": "Medición"
+    },
+    {
+      "nombre": "Seguridad (EPP)"
+    }
+  ],
+  "herramientas": [
+    {
+      "nombre": "Taladro Atornillador Inalámbrico Bosch Professional GSR 18V-2-LI",
+      "marca": "Bosch",
+      "descripcion": "Taladro atornillador inalámbrico Bosch Professional 18V (sin batería), con 2 velocidades, 15+1 niveles de torque y empuñadura delgada compacta.",
+      "imagenUrl": "/catalogo/bosch/taladros/taladro-atornillador-bosch-gsr-18v-2-li.png",
+      "precio": 248000,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/taladros/taladro-atornillador-bosch-gsr-18v-2-li-2.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 18V (sistema Professional, no incluida)",
+        "Torque (blando/duro/máx): 19/45 Nm",
+        "Velocidad (1ra/2da marcha): 0-400 / 0-1.300 RPM",
+        "Mandril: 1,5-10mm",
+        "15+1 niveles de torque",
+        "Empuñadura delgada de 126mm con caucho suave",
+        "Longitud de cabezal: 196mm (compacto para espacios reducidos)"
+      ]
+    },
+    {
+      "nombre": "Sierra Sable DeWalt DCS380B (20V MAX)",
+      "marca": "DeWalt",
+      "descripcion": "Sierra sable DeWalt 20V MAX (solo herramienta), con abrazadera de 4 posiciones, velocidad variable de hasta 3.000 CPM y cambio de hoja sin llave.",
+      "imagenUrl": "/catalogo/dewalt/sierras/sierra-sable-dewalt-dcs380b.webp",
+      "precio": 224000,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/sierras/sierra-sable-dewalt-dcs380b-2.webp",
+        "/catalogo/dewalt/sierras/sierra-sable-dewalt-dcs380b-3.webp",
+        "/catalogo/dewalt/sierras/sierra-sable-dewalt-dcs380b-4.webp",
+        "/catalogo/dewalt/sierras/sierra-sable-dewalt-dcs380b-5.webp",
+        "/catalogo/dewalt/sierras/sierra-sable-dewalt-dcs380b-6.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V MAX (nominal 18V)",
+        "Abrazadera con 4 posiciones",
+        "Gatillo de velocidad variable: 0-3.000 CPM",
+        "Zapata ajustable giratoria",
+        "Cambio de hoja sin llave",
+        "Garantía: 3 años limitada + 1 año mantenimiento gratuito"
+      ]
+    },
+    {
+      "nombre": "Martillo Demoledor Rotativo Gamma G1953AR (2100W)",
+      "marca": "Gamma",
+      "descripcion": "Martillo demoledor y rotativo Gamma de 2100W, con potencia de impacto de 17-35J y capacidad de perforación en concreto de 18-50mm.",
+      "imagenUrl": "/catalogo/gamma/rotomartillos/martillo-demoledor-rotativo-gamma-g1953ar.jpg",
+      "precio": 245000,
+      "stock": 10,
+      "idCategoria": 5,
+      "caracteristicas": [
+        "Potencia: 2100W",
+        "Alimentación: 220V ~ 50Hz monofásica",
+        "Velocidad sin carga: 100-250 RPM",
+        "Percusión: 750-1.950 impactos por minuto",
+        "Potencia de impacto: 17-35J",
+        "Capacidad en concreto: 18-50mm",
+        "Peso: 15kg (sin cable)",
+        "Presión acústica: 96,5 dB(A)",
+        "Llave selectora de giro/percusión, arranque progresivo, indicador de carbón gastado"
+      ]
+    },
+    {
+      "nombre": "Cepillo Inalámbrico Bosch Professional GHO 12V-20",
+      "marca": "Bosch",
+      "descripcion": "Cepillo inalámbrico Bosch Professional del sistema 12V (sin batería), con motor brushless EC, ancho de cepillado de 56mm y profundidad de rebaje de hasta 17mm.",
+      "imagenUrl": "/catalogo/bosch/lijadoras/cepillo-inalambrico-bosch-gho-12v-20.png",
+      "precio": 420000,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/lijadoras/cepillo-inalambrico-bosch-gho-12v-20-2.png",
+        "/catalogo/bosch/lijadoras/cepillo-inalambrico-bosch-gho-12v-20-3.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: sistema 12V (no incluida)",
+        "Ancho de cepillado máximo: 56mm",
+        "Profundidad de cepillado: 0-2mm",
+        "Profundidad de rebaje: 0-17mm",
+        "Velocidad en vacío: 14.500 RPM",
+        "Peso sin batería: 1,5kg",
+        "Motor brushless EC"
+      ]
+    },
+    {
+      "nombre": "Martillo Perforador Inalámbrico Bosch Professional GBH 187-LI ONECHUCK",
+      "marca": "Bosch",
+      "descripcion": "Martillo perforador inalámbrico de 18V con sistema ONECHUCK de portaherramientas intercambiable (SDS plus, cilíndrico y HEX), motor brushless y energía de impacto de 2,4J.",
+      "imagenUrl": "/catalogo/bosch/rotomartillos/martillo-perforador-bosch-gbh-187-li-onechuck.png",
+      "precio": 540000,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/rotomartillos/martillo-perforador-bosch-gbh-187-li-onechuck-2.png",
+        "/catalogo/bosch/rotomartillos/martillo-perforador-bosch-gbh-187-li-onechuck-3.png",
+        "/catalogo/bosch/rotomartillos/martillo-perforador-bosch-gbh-187-li-onechuck-4.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 18V (no incluida)",
+        "Energía de impacto: 2,4J",
+        "Velocidad: 0-980 RPM / 0-4.350 IPM",
+        "Portaherramientas: SDS plus, cilíndrico y HEX (sistema ONECHUCK intercambiable)",
+        "Diámetro de perforación en concreto: 4-24mm",
+        "Peso sin batería: 3kg",
+        "Motor Brushless sin escobillas",
+        "Vibration Control, KickBack Control, velocidad constante"
+      ]
+    },
+    {
+      "nombre": "Rotomartillo Bosch Professional GBH 220 SDS Plus 720w",
+      "marca": "Bosch",
+      "descripcion": "Rotomartillo Bosch Professional de 720W con portaherramientas SDS plus y 3 modos de funcionamiento (perforación con/sin percusión y cincelado).",
+      "imagenUrl": "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-220-sds-plus.png",
+      "precio": 380000,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-220-sds-plus-2.png",
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-220-sds-plus-3.png",
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-220-sds-plus-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 720W",
+        "Energía de impacto: 2,0J",
+        "Rango de perforación en concreto: 4-22mm",
+        "Tasa de impacto: 0-4.800 IPM",
+        "Peso: 2,3kg",
+        "Portaherramientas: SDS plus",
+        "3 modos de funcionamiento (perforación con/sin percusión y cincelado)"
+      ]
+    },
+    {
+      "nombre": "Sierra Sable Inalámbrica Bosch Professional Heavy Duty GSA 12V-14",
+      "marca": "Bosch",
+      "descripcion": "Sierra sable inalámbrica compacta Bosch Professional de 12V, con longitud de carrera de 14,5mm y capacidad de corte de hasta 65mm en madera.",
+      "imagenUrl": "/catalogo/bosch/sierras/sierra-sable-bosch-gsa-12v-14.png",
+      "precio": 360000,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/sierras/sierra-sable-bosch-gsa-12v-14-2.png",
+        "/catalogo/bosch/sierras/sierra-sable-bosch-gsa-12v-14-3.jpg",
+        "/catalogo/bosch/sierras/sierra-sable-bosch-gsa-12v-14-4.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 12V, 2Ah",
+        "Peso con batería: 1,2kg",
+        "Longitud de carrera: 14,5mm",
+        "Profundidad de corte en madera: 65mm",
+        "Profundidad de corte en metal: 50mm",
+        "Diseño compacto, sistema SDS de Bosch"
+      ]
+    },
+    {
+      "nombre": "Caja de Herramientas en Torre TOUGHSYSTEM 2.0 DeWalt DWST60436",
+      "marca": "DeWalt",
+      "descripcion": "Conjunto de 3 cajas de almacenamiento apilables DeWalt TOUGHSYSTEM 2.0, clasificación IP65 resistente a polvo y agua, compatible con todo el sistema TOUGHSYSTEM.",
+      "imagenUrl": "/catalogo/dewalt/herramientas-manuales/caja-toughsystem-dewalt-dwst60436.webp",
+      "precio": 180000,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/herramientas-manuales/caja-toughsystem-dewalt-dwst60436-2.webp",
+        "/catalogo/dewalt/herramientas-manuales/caja-toughsystem-dewalt-dwst60436-3.webp",
+        "/catalogo/dewalt/herramientas-manuales/caja-toughsystem-dewalt-dwst60436-4.webp",
+        "/catalogo/dewalt/herramientas-manuales/caja-toughsystem-dewalt-dwst60436-5.webp",
+        "/catalogo/dewalt/herramientas-manuales/caja-toughsystem-dewalt-dwst60436-6.webp"
+      ],
+      "caracteristicas": [
+        "Conjunto de 3 cajas de almacenamiento apilables",
+        "Clasificación IP65 (resistente a polvo y agua)",
+        "Cierres laterales de conexión automática, operables con una mano",
+        "Cierres frontales de metal de dos piezas",
+        "Incluye bandeja interna removible y 2 vasos organizadores grandes",
+        "Compatible con todo el sistema TOUGHSYSTEM",
+        "Garantía limitada de por vida"
+      ]
+    },
+    {
+      "nombre": "Organizador TSTAK V DeWalt DWST17805",
+      "marca": "DeWalt",
+      "descripcion": "Organizador DeWalt TSTAK V de 7,8 litros con tapa de policarbonato transparente resistente a impactos, 7 compartimentos extraíbles y capacidad de carga de 20kg.",
+      "imagenUrl": "/catalogo/dewalt/herramientas-manuales/organizador-tstak-v-dewalt-dwst17805.webp",
+      "precio": 45000,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/herramientas-manuales/organizador-tstak-v-dewalt-dwst17805-2.webp",
+        "/catalogo/dewalt/herramientas-manuales/organizador-tstak-v-dewalt-dwst17805-3.webp"
+      ],
+      "caracteristicas": [
+        "Capacidad: 7,8 litros",
+        "Capacidad de carga: 20kg",
+        "Compartimentos extraíbles: 2 grandes y 5 pequeños",
+        "Tapa de policarbonato transparente resistente a impactos",
+        "Mango con bisagras y pestillos de metal",
+        "Garantía: 1 año limitada"
+      ]
+    },
+    {
+      "nombre": "Taladro Percutor DeWalt DCD1007B-B3 (3 Velocidades, 20V MAX)",
+      "marca": "DeWalt",
+      "descripcion": "Taladro percutor DeWalt 20V MAX (solo herramienta), el más potente de la línea según DeWalt, con motor brushless, transmisión de 3 velocidades y mandril de 1/2'' nitrocarbonado.",
+      "imagenUrl": "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd1007b.webp",
+      "precio": 420000,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd1007b-2.webp",
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd1007b-3.webp",
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd1007b-4.webp",
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd1007b-5.webp",
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd1007b-6.webp"
+      ],
+      "caracteristicas": [
+        "Motor sin carbones (brushless), el más potente de la línea 20V MAX según DeWalt",
+        "Transmisión de 3 velocidades con componentes metálicos",
+        "Mandril de 1/2\" en metal nitrocarbonado",
+        "Sistema antirrotación",
+        "LED giratorio de 3 posiciones",
+        "Hasta 275 perforaciones por carga",
+        "Incluye mango lateral y gancho para cinturón",
+        "Se vende sin batería ni cargador"
+      ]
+    },
+    {
+      "nombre": "Atornillador Articulado a Batería Gamma G12107AR (3,6V)",
+      "marca": "Gamma",
+      "descripcion": "Atornillador articulado a batería de 3,6V con empuñadura flexible ideal para áreas de difícil acceso, mandril de 1/4'' y carga USB-C.",
+      "imagenUrl": "/catalogo/gamma/destornilladores/atornillador-articulado-gamma-g12107ar.jpg",
+      "precio": 22000,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/destornilladores/atornillador-articulado-gamma-g12107ar-2.jpg",
+        "/catalogo/gamma/destornilladores/atornillador-articulado-gamma-g12107ar-3.jpg",
+        "/catalogo/gamma/destornilladores/atornillador-articulado-gamma-g12107ar-4.jpg",
+        "/catalogo/gamma/destornilladores/atornillador-articulado-gamma-g12107ar-5.jpg",
+        "/catalogo/gamma/destornilladores/atornillador-articulado-gamma-g12107ar-6.jpg",
+        "/catalogo/gamma/destornilladores/atornillador-articulado-gamma-g12107ar-7.jpg"
+      ],
+      "caracteristicas": [
+        "Voltaje: 3,6V, batería 1,5Ah de Litio",
+        "Mandril: 1/4\" (6,35mm)",
+        "Velocidad: 250 RPM",
+        "Torque máximo: 3 N.m",
+        "Tiempo de carga: 2-3 horas, carga USB-C",
+        "Empuñadura articulada, ideal para áreas de difícil acceso"
+      ],
+      "incluye": "23 puntas, adaptador de tubos, luz LED, estuche y cargador USB"
+    },
+    {
+      "nombre": "Disco de Corte para Acero Inoxidable 115mm",
+      "marca": "Genérico",
+      "descripcion": "Disco de corte de 115x1.0x22mm para acero inoxidable, compatible con amoladoras angulares de 115mm.",
+      "imagenUrl": "/catalogo/accesorios/accesorios-y-consumibles/disco-corte-acero-inoxidable-115mm.png",
+      "precio": 950,
+      "stock": 10,
+      "idCategoria": 8,
+      "caracteristicas": [
+        "Dimensiones: 115 x 1.0 x 22mm",
+        "Uso: corte de acero inoxidable",
+        "Compatible con amoladoras angulares de 115mm"
+      ]
+    },
+    {
+      "nombre": "Disco de Desbaste para Metal 115mm",
+      "marca": "Genérico",
+      "descripcion": "Disco de desbaste de 115x6.0x22mm para metal, compatible con amoladoras angulares de 115mm.",
+      "imagenUrl": "/catalogo/accesorios/accesorios-y-consumibles/disco-desbaste-metal-115mm.png",
+      "precio": 2800,
+      "stock": 10,
+      "idCategoria": 8,
+      "caracteristicas": [
+        "Dimensiones: 115 x 6.0 x 22mm",
+        "Uso: desbaste de metal",
+        "Compatible con amoladoras angulares de 115mm"
+      ]
+    },
+    {
+      "nombre": "Juego de Brocas HSS 25 Piezas",
+      "marca": "Genérico",
+      "descripcion": "Set de brocas cilíndricas de acero rápido (HSS) para metal, madera, aluminio y plástico, de 1,0mm a 13,0mm.",
+      "imagenUrl": "/catalogo/accesorios/accesorios-y-consumibles/juego-brocas-hss-25-piezas.png",
+      "precio": 7990,
+      "stock": 10,
+      "idCategoria": 8,
+      "caracteristicas": [
+        "Material: acero rápido (HSS)",
+        "Aplicaciones: metal, madera, aluminio, plástico",
+        "Corte transversal DIN338, ángulo 118°",
+        "Set con medidas de 1,0mm a 13,0mm"
+      ]
+    },
+    {
+      "nombre": "Máscara Media Cara TPE Talle M",
+      "marca": "Genérico",
+      "descripcion": "Máscara media cara de TPE con conexión bayoneta para filtros/cartuchos, arnés de ajuste rápido, apta para protección contra gases y aerosoles nocivos.",
+      "imagenUrl": "/catalogo/accesorios/seguridad-epp/mascara-media-cara-tpe-talle-m.jpg",
+      "precio": 18500,
+      "stock": 10,
+      "idCategoria": 11,
+      "caracteristicas": [
+        "Material: TPE (elastómero termoplástico)",
+        "Sistema de conexión bayoneta para filtros/cartuchos",
+        "Arnés de ajuste rápido",
+        "Apto para protección contra gases y aerosoles nocivos",
+        "Cumple Resolución 18/25, Anexo 2"
+      ]
+    },
+    {
+      "nombre": "Hoja de Sierra Caladora Pack x5",
+      "marca": "Genérico",
+      "descripcion": "Pack de 5 hojas para sierra caladora con encastre universal tipo T, pensadas para corte agresivo de madera. Compatibles con la mayoría de las sierras caladoras del mercado.",
+      "imagenUrl": "/catalogo/accesorios/accesorios-y-consumibles/hoja-de-sierra-caladora-pack-x5.png",
+      "precio": 590,
+      "stock": 10,
+      "idCategoria": 8,
+      "caracteristicas": [
+        "Encastre universal tipo T",
+        "Distancia entre dientes: 4mm",
+        "Uso: corte agresivo/bruto de madera",
+        "Compatible con la mayoría de sierras caladoras del mercado (encastre T universal)"
+      ]
+    },
+    {
+      "nombre": "Kit Tarugo + Tornillo Fix 8mm (x25)",
+      "marca": "Genérico",
+      "descripcion": "Kit de fijación con tarugo plástico y tornillo a juego de 8mm, en bolsa de 25 unidades, ideal para fijaciones rápidas en pared.",
+      "imagenUrl": "/catalogo/accesorios/fijaciones/kit-tarugo-tornillo-fix-8mm-x25.webp",
+      "precio": 5981,
+      "stock": 10,
+      "idCategoria": 9,
+      "caracteristicas": [
+        "Presentación: bolsa de 25 unidades",
+        "Diámetro: 8mm",
+        "Incluye tarugo plástico y tornillo a juego"
+      ]
+    },
+    {
+      "nombre": "Tornillo Autoperforante para Durlock 6x2\" (x50)",
+      "marca": "Genérico",
+      "descripcion": "Tornillo autoperforante de 6x2'' para durlock, con cuello curvo para materiales blandos, borde enrasado y rosca de paso grueso con punta aguda. Pack de 50 unidades.",
+      "imagenUrl": "/catalogo/accesorios/fijaciones/tornillo-autoperforante-durlock-x50.webp",
+      "precio": 2655,
+      "stock": 10,
+      "idCategoria": 9,
+      "caracteristicas": [
+        "Cuello con ligera curvatura para materiales blandos",
+        "Borde superior enrasado (sin roturas ni tensiones)",
+        "Rosca de paso grueso con punta aguda"
+      ]
+    },
+    {
+      "nombre": "Detector de Metal en Paredes 3 en 1",
+      "marca": "Genérico",
+      "descripcion": "Detector de metal, madera y pernos en paredes, con 19mm de profundidad de detección y 3mm de precisión. Incluye alarma sonora y flash visual, funciona a batería de 9V (no incluida).",
+      "imagenUrl": "/catalogo/accesorios/medicion/detector-de-metal-en-paredes-3-en-1.jpg",
+      "precio": 19033,
+      "stock": 10,
+      "idCategoria": 10,
+      "caracteristicas": [
+        "Profundidad de detección: 19mm",
+        "Precisión de posición: 3mm",
+        "Detecta metal, madera y pernos en paredes",
+        "Alarma sonora y flash visual",
+        "Alimentación: batería 9V (no incluida)",
+        "Dimensiones: 145x62x25mm, peso ~71g"
+      ]
+    },
+    {
+      "nombre": "Multímetro Digital Compacto True RMS",
+      "marca": "Genérico",
+      "descripcion": "Multímetro digital compacto True RMS con medición de tensión AC/DC hasta 600V y corriente DC de 10A, test de continuidad y diodos, detección de tensión sin contacto (NCV) y linterna integrada.",
+      "imagenUrl": "/catalogo/accesorios/medicion/multimetro-digital-compacto-true-rms.jpg",
+      "precio": 13976,
+      "stock": 10,
+      "idCategoria": 10,
+      "caracteristicas": [
+        "Medición: 2000 cuentas TRMS",
+        "Tensión alterna/continua: 600V",
+        "Corriente continua: 10A",
+        "Resistencia: 20MΩ",
+        "Test de continuidad y diodos, medición HFE para transistores",
+        "NCV (detección sin contacto) y detección de vivo",
+        "Linterna y luz de fondo integradas",
+        "Alimentación: 3 pilas AAA",
+        "Dimensiones: 147x71x45mm, peso ~220g"
+      ]
+    },
+    {
+      "nombre": "Guante Anti-Impacto Vaqueta Lincoln Talle 10",
+      "marca": "Lincoln",
+      "descripcion": "Guante de cuero vaqueta elastizado con refuerzo TPR antiimpacto en el dorso. Protección contra abrasión, desgarre, corte y punción. Talle 10, cumple la Resolución 18/25 Anexo 2.",
+      "imagenUrl": "/catalogo/accesorios/seguridad-epp/guante-anti-impacto-lincoln-talle-10.jpg",
+      "precio": 13925,
+      "stock": 10,
+      "idCategoria": 11,
+      "caracteristicas": [
+        "Material: cuero vaqueta",
+        "Refuerzo TPR en el dorso (antiimpacto)",
+        "Protección: abrasión nivel 2, desgarre nivel 3, corte nivel 1, punción nivel 2",
+        "Talles disponibles: 8, 9, 10, 11",
+        "Cumple Resolución 18/25, Anexo 2"
+      ]
+    },
+    {
+      "nombre": "Protector Auditivo de Copa Tipo Vincha (25.5dB)",
+      "marca": "Genérico",
+      "descripcion": "Protector auditivo de copa con orejeras en ABS y almohadillas de espuma de poliuretano. Atenuación de 25,5dB (SNR), arnés ajustable y certificación EN 352-1.",
+      "imagenUrl": "/catalogo/accesorios/seguridad-epp/protector-auditivo-copa-vincha.jpg",
+      "precio": 11195,
+      "stock": 10,
+      "idCategoria": 11,
+      "caracteristicas": [
+        "Orejeras universales en ABS",
+        "Atenuación (SNR): 25,5dB",
+        "Peso: 161g",
+        "Almohadillas de espuma de poliuretano",
+        "Arnés ajustable (chico/mediano/grande)",
+        "Certificado bajo norma EN 352-1"
+      ]
+    },
+    {
+      "nombre": "Protector Ocular Monolente Anti Empañe",
+      "marca": "Genérico",
+      "descripcion": "Protector ocular monolente rígido y transparente, liviano, con tratamiento anti-empañe para uso prolongado.",
+      "imagenUrl": "/catalogo/accesorios/seguridad-epp/protector-ocular-monolente.jpg",
+      "precio": 3750,
+      "stock": 10,
+      "idCategoria": 11,
+      "caracteristicas": [
+        "Lente monolente rígido, transparente",
+        "Tratamiento anti-empañe",
+        "Diseño de vanguardia liviano"
+      ]
+    },
+    {
+      "nombre": "Taladro Percutor y Atornillador Lüsqtoff TAL450-9",
+      "marca": "Lüsqtoff",
+      "descripcion": "Taladro percutor y atornillador Lüsqtoff de 450W con función de percutor, mandril metálico autoajustable de 13mm, torque regulable en 20 posiciones y luz LED incorporada.",
+      "imagenUrl": "/catalogo/lusqtoff/taladros/taladro-percutor-y-atornillador-lusqtoff-tal450-9.jpg",
+      "precio": 137899,
+      "stock": 10,
+      "descuento": 15,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/taladros/taladro-percutor-y-atornillador-lusqtoff-tal450-9-2.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 450W",
+        "Velocidad: 0-480 RPM / 0-1800 RPM (6 posiciones)",
+        "Torque: 75 N.m (20 posiciones de regulación)",
+        "Mandril metálico autoajustable y antipolvo: 13mm",
+        "Percutor",
+        "Luz LED",
+        "Capacidad máx. perforación madera: 38mm",
+        "Capacidad máx. perforación metal: 13mm",
+        "Capacidad máx. perforación mampostería: 10mm",
+        "Peso: 2kg"
+      ]
+    },
+    {
+      "nombre": "Taladro de Impacto Lüsqtoff TPL710-7",
+      "marca": "Lüsqtoff",
+      "descripcion": "Taladro de impacto Lüsqtoff de 750W con velocidad de hasta 32.000 RPM, mandril de 13mm, selector de modo percutor y función de reserva. Incluye empuñadura auxiliar, limitador de profundidad y llave para la broca.",
+      "imagenUrl": "/catalogo/lusqtoff/taladros/taladro-de-impacto-lusqtoff-tpl710-7.jpg",
+      "precio": 61099,
+      "stock": 10,
+      "idCategoria": 1,
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 750W",
+        "Velocidad: hasta 32.000 RPM",
+        "Mandril: 13mm",
+        "Función de reserva",
+        "Selector para modo percutor",
+        "Ventilación"
+      ],
+      "incluye": "empuñadura auxiliar, limitador de profundidad, llave para abrir y cerrar la broca"
+    },
+    {
+      "nombre": "Taladro y Atornillador Lüsqtoff TAL300-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Taladro y atornillador Lüsqtoff de 300W con mandril autoajustable de 0,8 a 10mm, velocidad de hasta 1.350 RPM en 19 posiciones y torque de 8,5 Nm, montado 100% con rodamientos.",
+      "imagenUrl": "/catalogo/lusqtoff/taladros/taladro-y-atornillador-lusqtoff-tal300-8.jpg",
+      "precio": 77099,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/taladros/taladro-y-atornillador-lusqtoff-tal300-8-2.jpg",
+        "/catalogo/lusqtoff/taladros/taladro-y-atornillador-lusqtoff-tal300-8-3.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 300W",
+        "Velocidad: 0-450 RPM / 0-1350 RPM (19 posiciones)",
+        "Mandril autoajustable: 0,8 - 10mm",
+        "Torque: 8,5 Nm",
+        "Montado 100% con rodamientos",
+        "Peso: 1,4kg"
+      ]
+    },
+    {
+      "nombre": "Sierra Caladora Lüsqtoff SCL450-7",
+      "marca": "Lüsqtoff",
+      "descripcion": "Sierra caladora Lüsqtoff de 450W con velocidad variable de hasta 3.000 RPM, guía láser y sistema pendular de 4 posiciones, con capacidad de corte de hasta 65mm en madera y función de bisel de 15° a 45°.",
+      "imagenUrl": "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-scl450-7.jpg",
+      "precio": 103099,
+      "stock": 10,
+      "descuento": 20,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-scl450-7-2.jpg",
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-scl450-7-3.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 450W",
+        "Velocidad: 0-3000 RPM",
+        "Encastre rápido",
+        "Función bisel: 15° - 45°",
+        "Velocidad variable",
+        "Tipo de hoja: U y T",
+        "Capacidad de corte en madera: 65mm",
+        "Capacidad de corte en aluminio: 10mm",
+        "Capacidad de corte en acero: 6mm",
+        "Longitud de carrera: 18mm",
+        "Acción pendular: 4 posiciones",
+        "Peso: 2,40kg"
+      ]
+    },
+    {
+      "nombre": "Sierra Caladora Lüsqtoff Velocidad Variable 710W Pendular con Guías",
+      "marca": "Lüsqtoff",
+      "descripcion": "Sierra caladora Lüsqtoff de velocidad variable y 710W, con capacidad de perforación de hasta 85mm en madera, 20mm en aluminio y 10mm en acero, pensada para trabajos de corte versátiles con mayor control.",
+      "imagenUrl": "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-vel-variable-710w.jpg",
+      "precio": 185000,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-vel-variable-710w-2.jpg",
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-vel-variable-710w-3.webp",
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-vel-variable-710w-4.webp",
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-vel-variable-710w-5.webp",
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-vel-variable-710w-6.webp",
+        "/catalogo/lusqtoff/sierras/sierra-caladora-lusqtoff-vel-variable-710w-7.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 710W",
+        "Voltaje: 220V",
+        "Velocidad variable, sistema pendular con guías",
+        "Capacidad máxima de perforación en madera: 85mm",
+        "Capacidad máxima de perforación en aluminio: 20mm",
+        "Capacidad máxima de perforación en acero: 10mm",
+        "1 posición pendular"
+      ]
+    },
+    {
+      "nombre": "Sierra Circular Lüsqtoff CSL1200-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Sierra circular Lüsqtoff de 1200W con disco de 185mm y velocidad de 5.500 RPM, con profundidad de corte de 63,5mm a 90° y 46mm a 45°.",
+      "imagenUrl": "/catalogo/lusqtoff/sierras/sierra-circular-lusqtoff-csl1200-8.jpg",
+      "precio": 122899,
+      "stock": 10,
+      "idCategoria": 2,
+      "caracteristicas": [
+        "Potencia máxima: 1200W",
+        "Velocidad: 5.500 RPM",
+        "Tensión: 220V ~ 50Hz",
+        "Diámetro de disco: 185mm x 2,4mm",
+        "Profundidad de corte a 90°: 63,5mm",
+        "Profundidad de corte a 45°: 46mm",
+        "Peso: 3,7kg"
+      ]
+    },
+    {
+      "nombre": "Sierra Circular Lüsqtoff CSL1500-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Sierra circular Lüsqtoff de 1500W con disco de 185mm, base de metal y mango lateral auxiliar, con palanca de acción individual para ajuste rápido de profundidad. Incluye hoja de sierra de 24 dientes, llave Allen y guía paralela.",
+      "imagenUrl": "/catalogo/lusqtoff/sierras/sierra-circular-lusqtoff-csl1500-8.jpg",
+      "precio": 200399,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/sierras/sierra-circular-lusqtoff-csl1500-8-2.jpg",
+        "/catalogo/lusqtoff/sierras/sierra-circular-lusqtoff-csl1500-8-3.jpg",
+        "/catalogo/lusqtoff/sierras/sierra-circular-lusqtoff-csl1500-8-4.jpg",
+        "/catalogo/lusqtoff/sierras/sierra-circular-lusqtoff-csl1500-8-5.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 1500W",
+        "Diámetro de disco: 185mm",
+        "Velocidad: 5.500 RPM",
+        "Profundidad de corte a 90°: 63,5mm",
+        "Profundidad de corte a 45°: 46mm",
+        "Peso: 4,40kg",
+        "Base de metal",
+        "Mango lateral auxiliar",
+        "Palanca de acción individual para ajuste rápido de profundidad"
+      ],
+      "incluye": "Hoja de sierra con 24 dientes, llave Allen de ajuste, guía paralela"
+    },
+    {
+      "nombre": "Sierra Circular Lüsqtoff SCL2200-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Sierra circular Lüsqtoff de 2200W con disco de 235mm (9 1/4''), diseño robusto y botón de bloqueo, con capacidad de corte de hasta 85mm en madera. Incluye hoja de sierra de 36 dientes de Widia y guía de corte recto.",
+      "imagenUrl": "/catalogo/lusqtoff/sierras/sierra-circular-lusqtoff-scl2200-8.jpg",
+      "precio": 356499,
+      "stock": 10,
+      "idCategoria": 2,
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 2200W",
+        "Velocidad: 4.100 RPM",
+        "Capacidad de corte en madera: 85mm",
+        "Capacidad de corte en aluminio: 20mm",
+        "Capacidad de corte en acero: 10mm",
+        "Profundidad a 90°: 84mm",
+        "Profundidad a 45°: 56mm",
+        "Peso: 4,75kg",
+        "Diámetro de corte: 235mm (9 1/4\")",
+        "Botón de bloqueo",
+        "Diseño robusto"
+      ],
+      "incluye": "hoja de sierra con 36 dientes de Widia, guía de corte rectos"
+    },
+    {
+      "nombre": "Lijadora Orbital Lüsqtoff LBL320-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Lijadora orbital Lüsqtoff de 320W con velocidad de 14.000 RPM y base de aluminio de 93x185mm, con traba de lija para uso continuo e interruptor sellado. Incluye tres hojas de lija y juego de carbones.",
+      "imagenUrl": "/catalogo/lusqtoff/lijadoras/lijadora-orbital-lusqtoff-lbl320-8.jpg",
+      "precio": 140999,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/lijadoras/lijadora-orbital-lusqtoff-lbl320-8-2.jpg",
+        "/catalogo/lusqtoff/lijadoras/lijadora-orbital-lusqtoff-lbl320-8-3.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 320W",
+        "Velocidad: 14.000 RPM",
+        "Diámetro de órbita: 2mm",
+        "Base: 93 x 185mm (de aluminio)",
+        "Peso: 1,78kg",
+        "Traba de lija / función de lijado continuo",
+        "Interruptor sellado"
+      ],
+      "incluye": "3 hojas de lija de 1/3 y juego de carbones"
+    },
+    {
+      "nombre": "Lijadora Orbital Lüsqtoff LOL260-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Lijadora orbital Lüsqtoff de 260W con velocidad de 14.500 RPM, base de 110x100mm para lija de 1/4 de hoja y traba de lija incluida. Incluye tres hojas de lija y juego de carbones.",
+      "imagenUrl": "/catalogo/lusqtoff/lijadoras/lijadora-orbital-lusqtoff-lol260-8.jpg",
+      "precio": 95799,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/lijadoras/lijadora-orbital-lusqtoff-lol260-8-2.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 260W",
+        "Velocidad: 14.500 RPM",
+        "Diámetro de órbita: 2mm",
+        "Base: 110 x 100mm",
+        "Peso: 1,6kg",
+        "Medida de lija: 1/4 de hoja",
+        "Traba de lija incluida",
+        "Interruptor sellado"
+      ],
+      "incluye": "3 hojas de lija 1/4 y juego de carbones"
+    },
+    {
+      "nombre": "Lijadora Roto Orbital Lüsqtoff LRL300-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Lijadora roto orbital Lüsqtoff de 300W con velocidad variable de 6.000 a 13.000 RPM y placa de lijado de 125mm con sistema de velcro, interruptor sellado antipolvo y recolector de polvo compatible con aspiradoras.",
+      "imagenUrl": "/catalogo/lusqtoff/lijadoras/lijadora-roto-orbital-lusqtoff-lrl300-8.jpg",
+      "precio": 106399,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/lijadoras/lijadora-roto-orbital-lusqtoff-lrl300-8-2.jpg",
+        "/catalogo/lusqtoff/lijadoras/lijadora-roto-orbital-lusqtoff-lrl300-8-3.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 300W",
+        "Velocidad: 6.000 - 13.000 RPM",
+        "Diámetro placa de lijado: 5\" (125mm)",
+        "Dimensiones: 250 x 150 x 165mm",
+        "Peso: 1,8kg",
+        "Interruptor sellado antipolvo",
+        "Base circular con velcro",
+        "Empuñadura soft grip",
+        "Recolector de polvo (compatible con aspiradoras)"
+      ],
+      "incluye": "disco de lija y recolector de polvo plástico"
+    },
+    {
+      "nombre": "Lijadora de Banda Lüsqtoff LBL810-7",
+      "marca": "Lüsqtoff",
+      "descripcion": "Lijadora de banda Lüsqtoff de 810W con banda de 533x76mm y centrador ajustable, que puede convertirse en lijadora estacionaria. Incluye bolsa recolectora, dos soportes de fijación y una lija de repuesto.",
+      "imagenUrl": "/catalogo/lusqtoff/lijadoras/lijadora-de-banda-lusqtoff-lbl810-7.jpg",
+      "precio": 183799,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/lijadoras/lijadora-de-banda-lusqtoff-lbl810-7-2.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 810W",
+        "Velocidad: 380 RPM",
+        "Tamaño de banda: 533 x 76mm",
+        "Centrador de banda ajustable",
+        "Peso: 3,7kg",
+        "Se convierte en lijadora estacionaria",
+        "Traba de interruptor"
+      ],
+      "incluye": "bolsa recolectora, 2 soportes de fijación, 1 lija de repuesto"
+    },
+    {
+      "nombre": "Lustralijadora Lüsqtoff LJL1300-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Lustralijadora Lüsqtoff de 1300W con disco de 175mm, velocidad variable progresiva de 1.000 a 3.000 RPM en 6 velocidades y rosca M14. Incluye llave de ajuste, empuñadura D, gorro de pulir, disco de respaldo, disco de lija, llave hexagonal y maletín de traslado.",
+      "imagenUrl": "/catalogo/lusqtoff/lijadoras/lustralijadora-lusqtoff-ljl1300-8.jpg",
+      "precio": 240099,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/lijadoras/lustralijadora-lusqtoff-ljl1300-8-2.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 1300W",
+        "Velocidad: 1.000 - 3.000 RPM",
+        "Diámetro: 175mm",
+        "Rosca del eje: M14",
+        "Velocidad variable progresiva (6 velocidades)",
+        "Montada 100% con rodamientos",
+        "Peso: 2,10kg"
+      ],
+      "incluye": "llave de ajuste, empuñadura D, gorro de pulir, disco de goma de respaldo, disco de lija, llave hexagonal, maletín de traslado y plato con abrojo"
+    },
+    {
+      "nombre": "Amoladora Angular Brushless Lüsqtoff AML1300B-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Amoladora angular Lüsqtoff de 1300W con motor brushless y velocidad de 11.000 RPM, pensada para cortar y desbastar con disco de 115mm con mayor eficiencia y menor desgaste. Tiene arranque progresivo y rejilla colectora de polvo, e incluye llave de ajuste, mango lateral y guarda de seguridad.",
+      "imagenUrl": "/catalogo/lusqtoff/amoladoras/amoladora-angular-brushless-lusqtoff-aml1300b-8.jpg",
+      "precio": 116699,
+      "stock": 10,
+      "idCategoria": 4,
+      "caracteristicas": [
+        "Potencia máxima: 1300W",
+        "Tensión: 220V ~ 50Hz",
+        "Velocidad: 11.000 RPM",
+        "Diámetro de disco: 115mm",
+        "Cable: 2m",
+        "Peso: 1,82kg",
+        "Garantía: 2 años",
+        "Arranque progresivo",
+        "Rejilla colectora de polvo",
+        "Tecnología Brushless"
+      ],
+      "incluye": "llave de ajuste, mango, guarda de seguridad cubre disco"
+    },
+    {
+      "nombre": "Amoladora Angular Brushless Lüsqtoff AML2200B-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Amoladora angular Lüsqtoff Brushless de 2200W para discos de 180mm, con velocidad de 8.500 RPM, arranque progresivo y rosca M14 para mayor versatilidad de accesorios. Incluye llave de ajuste, mango y guarda de seguridad cubre disco.",
+      "imagenUrl": "/catalogo/lusqtoff/amoladoras/amoladora-angular-brushless-lusqtoff-aml2200b-8.jpg",
+      "precio": 370299,
+      "stock": 10,
+      "idCategoria": 4,
+      "caracteristicas": [
+        "Potencia máxima: 2200W",
+        "Tensión: 220V ~ 50Hz",
+        "Velocidad: 8.500 RPM",
+        "Diámetro de disco: 180mm",
+        "Cable: 2m",
+        "Arranque progresivo",
+        "Rosca: M14",
+        "Peso: 5,5kg",
+        "Tecnología Brushless"
+      ],
+      "incluye": "llave de ajuste, mango, guarda de seguridad cubre disco"
+    },
+    {
+      "nombre": "Amoladora Angular Lüsqtoff AML2200-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Amoladora angular Lüsqtoff de 2200W y disco de 180mm (7''), con velocidad de 8.500 RPM, protección antipolvo, acceso rápido a carbones y gatillo hombre muerto para mayor seguridad. Incluye llave de ajuste y mango lateral.",
+      "imagenUrl": "/catalogo/lusqtoff/amoladoras/amoladora-angular-lusqtoff-aml2200-8.jpg",
+      "precio": 339999,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/amoladoras/amoladora-angular-lusqtoff-aml2200-8-2.jpg",
+        "/catalogo/lusqtoff/amoladoras/amoladora-angular-lusqtoff-aml2200-8-3.jpg",
+        "/catalogo/lusqtoff/amoladoras/amoladora-angular-lusqtoff-aml2200-8-4.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 2200W",
+        "Velocidad: 8.500 RPM",
+        "Diámetro de disco: 180mm (7\")",
+        "Rosca del eje: M14",
+        "Cable: 2 metros",
+        "Montada 100% con rodamientos",
+        "Peso: 5,2kg",
+        "Protección antipolvo",
+        "Acceso rápido a carbones",
+        "Gatillo hombre muerto",
+        "Sistema de encendido en 2 posiciones (pulsador + traba)"
+      ],
+      "incluye": "llave de ajuste y mango lateral"
+    },
+    {
+      "nombre": "Amoladora Angular Lüsqtoff L820-7",
+      "marca": "Lüsqtoff",
+      "descripcion": "Amoladora angular Lüsqtoff compacta de 720W, con disco de 115mm, velocidad de 11.000 RPM, botón de bloqueo de eje y empuñadura ergonómica lateral. Incluye mango auxiliar, guarda protectora y llave de ajuste.",
+      "imagenUrl": "/catalogo/lusqtoff/amoladoras/amoladora-angular-lusqtoff-l820-7.jpg",
+      "precio": 65799,
+      "stock": 10,
+      "idCategoria": 4,
+      "caracteristicas": [
+        "Potencia máxima: 720W",
+        "Tensión: 220V ~ 50Hz",
+        "Diámetro de disco: 115mm",
+        "Rosca: M14",
+        "Velocidad: 11.000 RPM",
+        "Botón de bloqueo del eje",
+        "Empuñadura ergonómica y lateral"
+      ],
+      "incluye": "mango auxiliar, guarda protectora, llave de ajuste"
+    },
+    {
+      "nombre": "Amoladora Recta Lüsqtoff ARL710-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Amoladora recta Lüsqtoff de 710W con velocidad variable de 12.000 a 28.000 RPM en 6 posiciones, ideal para trabajos de precisión en espacios reducidos. Incluye dos llaves de boca de 16mm y collets de 6mm y 1/4''.",
+      "imagenUrl": "/catalogo/lusqtoff/amoladoras/amoladora-recta-lusqtoff-arl710-8.jpg",
+      "precio": 155299,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/amoladoras/amoladora-recta-lusqtoff-arl710-8-2.jpg",
+        "/catalogo/lusqtoff/amoladoras/amoladora-recta-lusqtoff-arl710-8-3.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 710W",
+        "Velocidad: 12.000 - 28.000 RPM (6 velocidades)",
+        "Diámetro: 10mm",
+        "Diámetro de boquilla: 6mm",
+        "Diámetro máx. de accesorio: 25mm",
+        "Velocidad variable",
+        "Montada 100% con rodamientos",
+        "Peso: 2,10kg"
+      ],
+      "incluye": "2 llaves de boca de 16mm y collets (6mm y 1/4\")"
+    },
+    {
+      "nombre": "Martillo Demoledor Lüsqtoff MDL1750-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Martillo demoledor Lüsqtoff de 1700W con energía de impacto de 60J y 1.900 golpes por minuto, encastre hexagonal de 30mm y amortiguador de vibraciones para trabajos pesados de demolición. Incluye cincel, punta, aceite para pistón, mango auxiliar, llaves de ajuste y maletín con ruedas.",
+      "imagenUrl": "/catalogo/lusqtoff/rotomartillos/martillo-demoledor-lusqtoff-mdl1750-8.jpg",
+      "precio": 405399,
+      "stock": 10,
+      "idCategoria": 5,
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 1700W",
+        "Golpes por minuto: 1900 BPM",
+        "Energía de impacto: 60J",
+        "Encastre: hexagonal (30mm)",
+        "Cable: 2m",
+        "Nivel de ruido: 85dB",
+        "Peso: 14,9kg",
+        "Amortiguador de vibraciones",
+        "Empuñadura auxiliar",
+        "Cincel intercambiable"
+      ],
+      "incluye": "cincel (410mm), punta (410mm), aceite para pistón, mango auxiliar, 2 llaves de ajuste, maletín con ruedas"
+    },
+    {
+      "nombre": "Rotomartillo Lüsqtoff RML1050-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Rotomartillo Lüsqtoff de 1050W con energía de impacto de 4,5J y encastre SDS Plus, con capacidad de perforación en concreto de hasta 26mm y embrague de seguridad. Incluye mango auxiliar giratorio, cinceles, brocas SDS Plus, carbones y grasa.",
+      "imagenUrl": "/catalogo/lusqtoff/rotomartillos/rotomartillo-lusqtoff-rml1050-8.jpg",
+      "precio": 192199,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/rotomartillos/rotomartillo-lusqtoff-rml1050-8-2.jpg",
+        "/catalogo/lusqtoff/rotomartillos/rotomartillo-lusqtoff-rml1050-8-3.jpg",
+        "/catalogo/lusqtoff/rotomartillos/rotomartillo-lusqtoff-rml1050-8-4.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 1050W",
+        "Energía de impacto: 4.5J",
+        "Tasa de impacto: 4200 GPM",
+        "Velocidad sin carga: 1050 RPM",
+        "Encastre tipo SDS Plus",
+        "Perforación en concreto: 26mm",
+        "Cable: 2m",
+        "Embrague de seguridad",
+        "Peso: 7kg"
+      ],
+      "incluye": "mango auxiliar (giro 350°), cincel de punta, cincel plano, brocas SDS Plus, juego de carbones y grasa"
+    },
+    {
+      "nombre": "Rotomartillo Lüsqtoff RML850-7",
+      "marca": "Lüsqtoff",
+      "descripcion": "Rotomartillo Lüsqtoff de 850W con energía de impacto de 3,0J, capaz de perforar hasta 26mm en hormigón, 13mm en acero y 30mm en madera, con velocidad sin carga de hasta 1.100 RPM.",
+      "imagenUrl": "/catalogo/lusqtoff/rotomartillos/rotomartillo-lusqtoff-rml850-7.jpg",
+      "precio": 116899,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/rotomartillos/rotomartillo-lusqtoff-rml850-7-2.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 850W",
+        "Capacidad de perforación en hormigón: 26mm",
+        "Capacidad de perforación en acero: 13mm",
+        "Capacidad de perforación en madera: 30mm",
+        "Velocidad sin carga: 0-1100 RPM",
+        "Tiempos de impacto: 0-4900 BPM",
+        "Energía de impacto por carrera: 3.0J",
+        "Rango de perforación óptimo: 6-20mm"
+      ]
+    },
+    {
+      "nombre": "Atornillador Durlock Lüsqtoff ATL710-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Atornillador para durlock Lüsqtoff de 710W con velocidad de hasta 4.000 RPM y torque de 9 Nm, con caja de engranaje metálica y ajuste de profundidad por tope regulable. Diseño ergonómico con sujetador para cinturón.",
+      "imagenUrl": "/catalogo/lusqtoff/destornilladores/atornillador-durlock-lusqtoff-atl710-8.jpg",
+      "precio": 149799,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/destornilladores/atornillador-durlock-lusqtoff-atl710-8-2.jpg",
+        "/catalogo/lusqtoff/destornilladores/atornillador-durlock-lusqtoff-atl710-8-3.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 710W",
+        "Velocidad: 0 - 4000 RPM",
+        "Encastre: 1/4\" hexagonal",
+        "Diámetro máximo de tornillo: 6mm",
+        "Torque: 9 Nm",
+        "Caja de engranaje metálica",
+        "Peso: 1,8kg",
+        "Diseño ergonómico con sujetador para cinturón",
+        "Ajuste de profundidad con regulador por tope"
+      ]
+    },
+    {
+      "nombre": "Llave de Impacto Lüsqtoff LIL900-8",
+      "marca": "Lüsqtoff",
+      "descripcion": "Llave de impacto Lüsqtoff de 900W con torque máximo de 320 Nm y 2.700 impactos por minuto, pensada para trabajos de alta exigencia con encastre de 1/2''. Incluye maletín de traslado y bocallaves de impacto de 17, 19, 21 y 23mm.",
+      "imagenUrl": "/catalogo/lusqtoff/destornilladores/llave-de-impacto-lusqtoff-lil900-8.jpg",
+      "precio": 240499,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/destornilladores/llave-de-impacto-lusqtoff-lil900-8-2.jpg",
+        "/catalogo/lusqtoff/destornilladores/llave-de-impacto-lusqtoff-lil900-8-3.jpg"
+      ],
+      "caracteristicas": [
+        "Tensión: 220V ~ 50Hz",
+        "Potencia: 900W",
+        "Velocidad: 0 - 2100 RPM",
+        "Número de impactos: 2700 IPM",
+        "Torque máximo: 320 Nm",
+        "Encastre: 1/2\"",
+        "Peso: 3,6kg",
+        "Mango ergonómico",
+        "Eje de transición metálico"
+      ],
+      "incluye": "maletín de traslado y bocallaves de impacto (17, 19, 21 y 23mm)"
+    },
+    {
+      "nombre": "Caja para Herramientas Lüsqtoff L8130 (23'' con ruedas)",
+      "marca": "Lüsqtoff",
+      "descripcion": "Caja para herramientas Lüsqtoff de 23 pulgadas con ruedas reforzadas de 15cm y mango telescópico, con capacidad de 57 litros y soporte de carga de hasta 40kg. Incluye bandeja interna y compartimentos externos para tornillería pequeña.",
+      "imagenUrl": "/catalogo/lusqtoff/herramientas-manuales/caja-de-herramientas-lusqtoff-l8130.jpg",
+      "precio": 178699,
+      "stock": 10,
+      "idCategoria": 7,
+      "caracteristicas": [
+        "Capacidad: 57 litros",
+        "Ruedas reforzadas de 15cm",
+        "Bandeja interna",
+        "Compartimentos externos para tornillería pequeña",
+        "Mango de traslado metálico",
+        "Broche metálico de liberación a una mano",
+        "Soporta carga de 40kg"
+      ]
+    },
+    {
+      "nombre": "Juego de 12 Llaves Combinadas Lüsqtoff JLC12-9",
+      "marca": "Lüsqtoff",
+      "descripcion": "Juego de 12 llaves combinadas Lüsqtoff fabricadas en acero cromo vanadio, con medidas de 8 a 19mm, cumpliendo las normas DIN ISO 1711-01 y DIN ISO 691 de torque y resistencia.",
+      "imagenUrl": "/catalogo/lusqtoff/herramientas-manuales/juego-de-12-llaves-combinadas-lusqtoff-jlc12-9.jpg",
+      "precio": 72999,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/lusqtoff/herramientas-manuales/juego-de-12-llaves-combinadas-lusqtoff-jlc12-9-2.jpg"
+      ],
+      "caracteristicas": [
+        "Tamaños: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 y 19mm",
+        "Material: acero cromo vanadio",
+        "Cumple norma DIN ISO 1711-01 (torque) y DIN ISO 691 (apertura/deformación)",
+        "Peso: 1,18kg",
+        "12 piezas"
+      ]
+    },
+    {
+      "nombre": "Llave Ajustable Profesional Lüsqtoff L3310 (250mm)",
+      "marca": "Lüsqtoff",
+      "descripcion": "Llave ajustable profesional Lüsqtoff de 10'' (250mm), línea PRO, fabricada en acero cromo vanadio con acabado fosfatado negro y sistema de tornillo sin fin y cremallera para un ajuste preciso.",
+      "imagenUrl": "/catalogo/lusqtoff/herramientas-manuales/llave-ajustable-profesional-lusqtoff-l3310.jpg",
+      "precio": 27099,
+      "stock": 10,
+      "idCategoria": 7,
+      "caracteristicas": [
+        "Acabado fosfatado negro",
+        "Sistema de tornillo sin fin y cremallera",
+        "Línea PRO",
+        "Material: acero cromo vanadio"
+      ]
+    },
+    {
+      "nombre": "Martillo Carpintero Lüsqtoff L7500",
+      "marca": "Lüsqtoff",
+      "descripcion": "Martillo de carpintero Lüsqtoff con cabeza de acero carbono C45 pulida con tratamiento óxido (dureza 48-50 HRC) y mango de fibra de vidrio con empuñadura antideslizante. Cuenta con garantía de 10 años.",
+      "imagenUrl": "/catalogo/lusqtoff/herramientas-manuales/martillo-carpintero-lusqtoff-l7500.jpg",
+      "precio": 9199,
+      "stock": 10,
+      "idCategoria": 7,
+      "caracteristicas": [
+        "Cabeza fabricada en acero carbono C45",
+        "Cabeza pulida con tratamiento óxido",
+        "Dureza: 48-50 HRC",
+        "Mango de fibra de vidrio",
+        "Empuñadura antideslizante",
+        "Garantía de 10 años"
+      ]
+    },
+    {
+      "nombre": "Nivel de Aluminio Magnético Profesional Lüsqtoff L7058",
+      "marca": "Lüsqtoff",
+      "descripcion": "Nivel de aluminio magnético profesional Lüsqtoff de 600mm, con base magnética para fijarse a superficies metálicas y tres burbujas de medición (0°, 45° y 90°).",
+      "imagenUrl": "/catalogo/lusqtoff/herramientas-manuales/nivel-de-aluminio-magnetico-lusqtoff-l7058.jpg",
+      "precio": 35199,
+      "stock": 10,
+      "idCategoria": 7,
+      "caracteristicas": [
+        "Base magnética",
+        "Material: aluminio",
+        "Ranuras para colgar",
+        "3 burbujas: 0° - 45° - 90°",
+        "Dimensiones: 600mm"
+      ]
+    },
+    {
+      "nombre": "Pinza Universal CRV Lüsqtoff L4510 (8 en 1)",
+      "marca": "Lüsqtoff",
+      "descripcion": "Pinza universal Lüsqtoff 8 en 1 con cabeza de cromo vanadio (CRV 60) y filo de alta dureza (HRC 58-62), con mango confort grip bimaterial. Permite crimpear, ajustar, sujetar, desbarbar, pelar cables, cortar tornillos y cables.",
+      "imagenUrl": "/catalogo/lusqtoff/herramientas-manuales/pinza-universal-crv-lusqtoff-l4510.jpg",
+      "precio": 21699,
+      "stock": 10,
+      "idCategoria": 7,
+      "caracteristicas": [
+        "Material de cabeza: cromo vanadio (CRV 60)",
+        "Dureza del cuerpo: HRC 40-48",
+        "Dureza del filo (Xtra Sharp): HRC 58-62",
+        "Mango confort grip bimaterial"
+      ]
+    },
+    {
+      "nombre": "Set de Destornilladores Lüsqtoff L6025 (18 piezas)",
+      "marca": "Lüsqtoff",
+      "descripcion": "Set de destornilladores Lüsqtoff de 18 piezas en acero cromo vanadio con puntas magnéticas y mango confort grip, incluyendo puntas planas, Phillips y Torx en distintos tamaños, con base exhibidora organizadora.",
+      "imagenUrl": "/catalogo/lusqtoff/herramientas-manuales/set-de-destornilladores-lusqtoff-l6025.jpg",
+      "precio": 34999,
+      "stock": 10,
+      "idCategoria": 7,
+      "caracteristicas": [
+        "Material: acero cromo vanadio",
+        "Punta magnética",
+        "Mango confort grip",
+        "Incluye base exhibidora organizadora"
+      ]
+    },
+    {
+      "nombre": "Taladro Angular Inalámbrico Bosch GWB 12V-10",
+      "marca": "Bosch",
+      "descripcion": "Taladro angular inalámbrico Bosch Professional de 12V con cabezal pivotante en 5 posiciones, velocidad de hasta 1.300 RPM y torque máximo de 11 Nm, ideal para perforar en espacios reducidos. Incluye función Autolock, indicador de carga y dos luces LED.",
+      "imagenUrl": "/catalogo/bosch/taladros/taladro-angular-inalambrico-bosch-gwb-12v-10.png",
+      "precio": 348035,
+      "stock": 10,
+      "descuento": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/taladros/taladro-angular-inalambrico-bosch-gwb-12v-10-2.png",
+        "/catalogo/bosch/taladros/taladro-angular-inalambrico-bosch-gwb-12v-10-3.png"
+      ],
+      "caracteristicas": [
+        "Batería: 12V (Ion-litio, no incluida)",
+        "Velocidad: 0-1.300 RPM",
+        "Torque (blando/duro/máx): 3/11 Nm",
+        "Peso sin batería: 1,2kg",
+        "Cabezal pivotante en 5 posiciones ajustables",
+        "Diámetro máx. perforación en madera: 10mm",
+        "Diámetro máx. de tornillo: 6mm",
+        "Función Autolock, indicador de carga, 2 luces LED"
+      ]
+    },
+    {
+      "nombre": "Taladro Bosch GBM 13 RE 750w",
+      "marca": "Bosch",
+      "descripcion": "Taladro Bosch Professional GBM 13 RE de 750W con sistema de giro reversible de igual potencia en ambos sentidos, caja de engranajes metálica y embrague de seguridad contra atascos. Incluye mango auxiliar, llave de mandril y limitador de profundidad.",
+      "imagenUrl": "/catalogo/bosch/taladros/taladro-bosch-gbm-13-re-750w.png",
+      "precio": 194889,
+      "stock": 10,
+      "descuento": 25,
+      "idCategoria": 1,
+      "caracteristicas": [
+        "Potencia absorbida: 750W",
+        "Peso: 2,5kg",
+        "Sistema de giro reversible con misma potencia en ambos sentidos",
+        "Carcasa de caja de engranajes metálica",
+        "Embrague de seguridad contra atascos"
+      ],
+      "incluye": "mango auxiliar, llave de mandril, limitador de profundidad"
+    },
+    {
+      "nombre": "Taladro Bosch GBM 50-2 Núcleo Magnético 1200w",
+      "marca": "Bosch",
+      "descripcion": "Taladro de núcleo magnético Bosch Professional GBM 50-2 de 1200W con base magnética para perforar en acero de hasta 50mm, dos velocidades (50-250 y 100-510 RPM) y tecnología láser para apuntar con precisión.",
+      "imagenUrl": "/catalogo/bosch/taladros/taladro-bosch-gbm-50-2-nucleo-magnetico-1200w.png",
+      "precio": 3195881,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/taladros/taladro-bosch-gbm-50-2-nucleo-magnetico-1200w-2.png"
+      ],
+      "caracteristicas": [
+        "Potencia absorbida: 1200W",
+        "Voltaje: 220V",
+        "Portabrocas: MT 2 - DIN 228",
+        "Velocidad en vacío (1ra): 50-250 RPM",
+        "Velocidad en vacío (2da): 100-510 RPM",
+        "Diámetro de perforación en acero: 50mm",
+        "Peso: 14,7kg",
+        "Tecnología láser para apuntar rápido",
+        "Sistema de desconexión de alimentación"
+      ]
+    },
+    {
+      "nombre": "Taladro Bosch GBM 6 RE 350w",
+      "marca": "Bosch",
+      "descripcion": "Taladro Bosch Professional GBM 6 RE de 350W con velocidad de hasta 4.000 RPM en primera marcha y torque nominal de 12,3 Nm, con capacidad de perforación de 15mm en madera, 8mm en aluminio y 6,5mm en acero.",
+      "imagenUrl": "/catalogo/bosch/taladros/taladro-bosch-gbm-6-re-350w.png",
+      "precio": 182261,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/taladros/taladro-bosch-gbm-6-re-350w-2.png",
+        "/catalogo/bosch/taladros/taladro-bosch-gbm-6-re-350w-3.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia absorbida: 350W",
+        "Potencia entregada: 136W",
+        "Velocidad en vacío (1ra marcha): 0-4.000 RPM",
+        "Velocidad nominal: 3.116 RPM",
+        "Torque nominal: 12,3 Nm",
+        "Diámetro de perforación en madera: 15mm",
+        "Diámetro de perforación en aluminio: 8mm",
+        "Diámetro de perforación en acero: 6,5mm",
+        "Peso: 1,2kg"
+      ]
+    },
+    {
+      "nombre": "Taladro Percutor Bosch GSB 550 550w",
+      "marca": "Bosch",
+      "descripcion": "Taladro percutor Bosch Professional GSB 550 de 550W con velocidad de hasta 3.100 RPM y mandril de 13mm, con capacidad de perforación de 25mm en madera, 13mm en hormigón y 10mm en acero.",
+      "imagenUrl": "/catalogo/bosch/taladros/taladro-percutor-bosch-gsb-550-550w.png",
+      "precio": 129320,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/taladros/taladro-percutor-bosch-gsb-550-550w-2.png"
+      ],
+      "caracteristicas": [
+        "Potencia absorbida: 550W",
+        "Voltaje: 220V",
+        "Velocidad en vacío (1ra marcha): 0-3.100 RPM",
+        "Tasa de impacto: 49.600 IPM",
+        "Mandril: 13mm",
+        "Capacidad de perforación: madera 25mm, hormigón 13mm, acero 10mm, mampostería 13mm",
+        "Peso: 1,3kg"
+      ]
+    },
+    {
+      "nombre": "Sierra Caladora Bosch GST 650 450w",
+      "marca": "Bosch",
+      "descripcion": "Sierra caladora Bosch Professional GST 650 con longitud de carrera de 18mm y velocidad regulable de 800 a 3.100 RPM, pensada para cortes livianos de uso frecuente.",
+      "imagenUrl": "/catalogo/bosch/sierras/sierra-caladora-bosch-gst-650-450w.png",
+      "precio": 142000,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/sierras/sierra-caladora-bosch-gst-650-450w-2.png",
+        "/catalogo/bosch/sierras/sierra-caladora-bosch-gst-650-450w-3.jpg",
+        "/catalogo/bosch/sierras/sierra-caladora-bosch-gst-650-450w-4.png"
+      ],
+      "caracteristicas": [
+        "Potencia: 450W (450w motor, entrada 650W según nomenclatura)",
+        "Voltaje: 220V",
+        "Longitud de carrera: 18mm",
+        "Velocidad: 800-3.100 RPM (regulable)",
+        "Peso: 1,9kg"
+      ]
+    },
+    {
+      "nombre": "Sierra Caladora Inalámbrica Bosch GST 185-LI",
+      "marca": "Bosch",
+      "descripcion": "Sierra caladora inalámbrica Bosch Professional GST 185-LI de 18V con motor brushless, acción orbital de 4 etapas y sistema SDS sin herramientas para cambio de hoja, con profundidad de corte de 125mm en madera y 20mm en aluminio.",
+      "imagenUrl": "/catalogo/bosch/sierras/sierra-caladora-inalambrica-bosch-gst-185-li.png",
+      "precio": 489505,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/sierras/sierra-caladora-inalambrica-bosch-gst-185-li-2.png",
+        "/catalogo/bosch/sierras/sierra-caladora-inalambrica-bosch-gst-185-li-3.jpg",
+        "/catalogo/bosch/sierras/sierra-caladora-inalambrica-bosch-gst-185-li-4.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 18V (no incluida)",
+        "Profundidad de corte en madera: 125mm",
+        "Profundidad de corte en aluminio: 20mm",
+        "Velocidad: 0-3.500 RPM",
+        "Altura de carrera: 26mm",
+        "Peso sin batería: 2kg",
+        "Ángulo de bisel: -45° a 45°",
+        "Acción orbital de 4 etapas, motor brushless, sistema SDS sin herramientas"
+      ]
+    },
+    {
+      "nombre": "Sierra Circular Bosch GKS 130 1300w",
+      "marca": "Bosch",
+      "descripcion": "Sierra circular Bosch Professional GKS 130 de 1300W con velocidad de 5.220 a 6.380 RPM y profundidad máxima de corte de 64mm a 90° y 45mm en bisel.",
+      "imagenUrl": "/catalogo/bosch/sierras/sierra-circular-bosch-gks-130-1300w.png",
+      "precio": 169999,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/sierras/sierra-circular-bosch-gks-130-1300w-2.png",
+        "/catalogo/bosch/sierras/sierra-circular-bosch-gks-130-1300w-3.jpg",
+        "/catalogo/bosch/sierras/sierra-circular-bosch-gks-130-1300w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 1300W",
+        "Voltaje: 220V",
+        "Velocidad en vacío: 5.220-6.380 RPM",
+        "Profundidad máxima de corte recto: 64mm",
+        "Profundidad máxima de corte biselado: 45mm",
+        "Diámetro interior de la hoja: 20mm",
+        "Peso: 3,9kg"
+      ]
+    },
+    {
+      "nombre": "Sierra Circular Inalámbrica Bosch GKS 18V-51",
+      "marca": "Bosch",
+      "descripcion": "Sierra circular inalámbrica Bosch Professional GKS 18V-51 con motor brushless, velocidad de 5.800 a 6.300 RPM y capacidad de corte de 51mm a 0° y 35mm a 45°, con arranque suave, freno y luz LED incorporada.",
+      "imagenUrl": "/catalogo/bosch/sierras/sierra-circular-inalambrica-bosch-gks-18v-51.png",
+      "precio": 509710,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/sierras/sierra-circular-inalambrica-bosch-gks-18v-51-2.png",
+        "/catalogo/bosch/sierras/sierra-circular-inalambrica-bosch-gks-18v-51-3.png"
+      ],
+      "caracteristicas": [
+        "Batería: 18V, motor brushless",
+        "Diámetro de hoja: 140mm",
+        "Velocidad: 5.800-6.300 RPM",
+        "Capacidad de corte: 51mm a 0°, 35mm a 45°",
+        "Peso sin batería: 2,2kg",
+        "Puerto de extracción de polvo mejorado",
+        "Soft Start, freno, luz LED incorporada"
+      ]
+    },
+    {
+      "nombre": "Sierra Ingletadora Bosch GCM 254 1750w",
+      "marca": "Bosch",
+      "descripcion": "Sierra ingletadora Bosch Professional GCM 254 de 1750W con disco de 254mm, ajuste de inglete de 47° a la izquierda y 52° a la derecha, y capacidad de corte de 90x130mm a 0°.",
+      "imagenUrl": "/catalogo/bosch/sierras/sierra-ingletadora-bosch-gcm-254-1750w.png",
+      "precio": 663432,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/sierras/sierra-ingletadora-bosch-gcm-254-1750w-2.jpg",
+        "/catalogo/bosch/sierras/sierra-ingletadora-bosch-gcm-254-1750w-3.jpg",
+        "/catalogo/bosch/sierras/sierra-ingletadora-bosch-gcm-254-1750w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 1750W",
+        "Diámetro de hoja: 254mm",
+        "Ajuste de inglete: 47° izquierda / 52° derecha",
+        "Ajuste de bisel: 45° izquierda / 0° derecha",
+        "Capacidad de corte a 0°: 90x130mm",
+        "Capacidad de corte a 45°: 90x91mm",
+        "Dimensiones: 477x559x567mm",
+        "Peso: 11,1kg",
+        "Velocidad en vacío: 5.000 RPM",
+        "Indicador de longitud para cortes repetitivos"
+      ]
+    },
+    {
+      "nombre": "Sierra Sable Bosch GSA 12-30 1250w",
+      "marca": "Bosch",
+      "descripcion": "Sierra sable Bosch Professional GSA 12-30 de 1250W con carrera de 30mm y profundidad de corte de 220mm en madera y 20mm en acero, con portahojas sin herramientas y velocidad variable.",
+      "imagenUrl": "/catalogo/bosch/sierras/sierra-sable-bosch-gsa-12-30-1250w.png",
+      "precio": 658900,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/sierras/sierra-sable-bosch-gsa-12-30-1250w-2.png",
+        "/catalogo/bosch/sierras/sierra-sable-bosch-gsa-12-30-1250w-3.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 1250W",
+        "Voltaje: 220V",
+        "Longitud de carrera: 30mm",
+        "Peso: 3,7kg",
+        "Profundidad de corte en madera: 220mm",
+        "Profundidad de corte en acero: 20mm",
+        "Nivel de presión sonora: 93 dB(A)",
+        "Velocidad variable, portahojas sin herramientas"
+      ]
+    },
+    {
+      "nombre": "Cepillo Bosch GHO 26-82 D 710w",
+      "marca": "Bosch",
+      "descripcion": "Cepillo eléctrico Bosch Professional GHO 26-82 D de 710W con ancho de cepillado de 82mm, profundidad regulable hasta 2,6mm y sistema de evacuación de virutas dual ajustable.",
+      "imagenUrl": "/catalogo/bosch/lijadoras/cepillo-bosch-gho-26-82-d-710w.png",
+      "precio": 742096,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/lijadoras/cepillo-bosch-gho-26-82-d-710w-2.jpg",
+        "/catalogo/bosch/lijadoras/cepillo-bosch-gho-26-82-d-710w-3.jpg",
+        "/catalogo/bosch/lijadoras/cepillo-bosch-gho-26-82-d-710w-4.png"
+      ],
+      "caracteristicas": [
+        "Potencia: 710W",
+        "Ancho de cepillado: 82mm",
+        "Profundidad de cepillado: 2,6mm",
+        "Profundidad de rebaje ajustable: 9mm",
+        "Velocidad en vacío: 18.000 RPM",
+        "Peso: 2,8kg",
+        "Sistema de evacuación de virutas dual ajustable"
+      ]
+    },
+    {
+      "nombre": "Lijadora Orbital Bosch GSS 140 220w",
+      "marca": "Bosch",
+      "descripcion": "Lijadora orbital Bosch Professional GSS 140 de 220W con velocidad de 14.000 RPM y superficie de lijado de 101x112mm, pensada para acabados finos con bajo nivel de vibración.",
+      "imagenUrl": "/catalogo/bosch/lijadoras/lijadora-orbital-bosch-gss-140-220w.png",
+      "precio": 167439,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/lijadoras/lijadora-orbital-bosch-gss-140-220w-2.png",
+        "/catalogo/bosch/lijadoras/lijadora-orbital-bosch-gss-140-220w-3.jpg",
+        "/catalogo/bosch/lijadoras/lijadora-orbital-bosch-gss-140-220w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 220W",
+        "Velocidad: 14.000 RPM / 28.000 oscilaciones sin carga",
+        "Superficie de lijado: 101 x 112mm",
+        "Peso: 1,1kg",
+        "Nivel de vibración: 3,4 m/s²",
+        "Opciones de agarre múltiple para reducir fatiga"
+      ]
+    },
+    {
+      "nombre": "Lijadora Orbital Inalámbrica Bosch GSS 18V-10",
+      "marca": "Bosch",
+      "descripcion": "Lijadora orbital inalámbrica Bosch Professional GSS 18V-10 de 18V, la primera de su clase operable con una sola mano, con oscilaciones de hasta 22.000 RPM y placa de 113x101mm.",
+      "imagenUrl": "/catalogo/bosch/lijadoras/lijadora-orbital-inalambrica-bosch-gss-18v-10.png",
+      "precio": 314493,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/lijadoras/lijadora-orbital-inalambrica-bosch-gss-18v-10-2.png",
+        "/catalogo/bosch/lijadoras/lijadora-orbital-inalambrica-bosch-gss-18v-10-3.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 18V (sistema Bosch Professional / AMPShare)",
+        "Oscilaciones sin carga: 22.000 RPM",
+        "Diámetro de circuito oscilante: 1,6mm",
+        "Placa lijadora: 113x101mm (114cm² de superficie)",
+        "Peso con batería: 1,7kg",
+        "Nivel de presión acústica: 76 dB(A)"
+      ]
+    },
+    {
+      "nombre": "Lijadora Roto Orbital Bosch GEX 125-1 AE 250w",
+      "marca": "Bosch",
+      "descripcion": "Lijadora roto orbital Bosch Professional GEX 125-1 AE de 250W con disco de lija de 125mm, velocidad de 7.500 a 12.000 RPM y sistema microfiltro Bosch compatible con Click & Clean.",
+      "imagenUrl": "/catalogo/bosch/lijadoras/lijadora-roto-orbital-bosch-gex-125-1-ae-250w.png",
+      "precio": 303349,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/lijadoras/lijadora-roto-orbital-bosch-gex-125-1-ae-250w-2.png",
+        "/catalogo/bosch/lijadoras/lijadora-roto-orbital-bosch-gex-125-1-ae-250w-3.jpg",
+        "/catalogo/bosch/lijadoras/lijadora-roto-orbital-bosch-gex-125-1-ae-250w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 250W",
+        "Diámetro del disco de lija: 125mm",
+        "Velocidad en vacío: 7.500-12.000 RPM",
+        "Oscilaciones: 15.000-24.000 RPM",
+        "Peso: 1,3kg",
+        "Sistema microfiltro Bosch integrado, compatible con Click & Clean"
+      ]
+    },
+    {
+      "nombre": "Lijadora Roto Orbital Inalámbrica Bosch GEX 185-LI",
+      "marca": "Bosch",
+      "descripcion": "Lijadora roto orbital inalámbrica Bosch Professional GEX 185-LI de 18V con motor brushless, disco de 125mm y velocidad de 6.000 a 10.000 RPM, con bajo nivel de vibración y hasta 40 minutos de autonomía.",
+      "imagenUrl": "/catalogo/bosch/lijadoras/lijadora-roto-orbital-inalambrica-bosch-gex-185-li.png",
+      "precio": 396004,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/lijadoras/lijadora-roto-orbital-inalambrica-bosch-gex-185-li-2.png",
+        "/catalogo/bosch/lijadoras/lijadora-roto-orbital-inalambrica-bosch-gex-185-li-3.jpg",
+        "/catalogo/bosch/lijadoras/lijadora-roto-orbital-inalambrica-bosch-gex-185-li-4.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 18V",
+        "Diámetro del disco de lija: 125mm",
+        "Velocidad en vacío: 6.000-10.000 RPM",
+        "Oscilaciones: 12.000-20.000 RPM",
+        "Peso: 0,93kg",
+        "Motor brushless, bajo nivel de vibración",
+        "Autonomía: hasta 40 min con batería de 4Ah"
+      ]
+    },
+    {
+      "nombre": "Lijadora de Banda Bosch GBS 750 850w",
+      "marca": "Bosch",
+      "descripcion": "Lijadora de banda Bosch Professional GBS 750 de 850W con velocidad de banda regulable de 200 a 420 m/min y banda de 75x533mm, pensada para desbaste y acabado en madera.",
+      "imagenUrl": "/catalogo/bosch/lijadoras/lijadora-de-banda-bosch-gbs-750-850w.png",
+      "precio": 206850,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/lijadoras/lijadora-de-banda-bosch-gbs-750-850w-2.png",
+        "/catalogo/bosch/lijadoras/lijadora-de-banda-bosch-gbs-750-850w-3.jpg",
+        "/catalogo/bosch/lijadoras/lijadora-de-banda-bosch-gbs-750-850w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 850W",
+        "Peso: 3,6kg",
+        "Velocidad de banda: 200-420 m/min (regulable)",
+        "Ancho de banda: 75mm / longitud: 533mm",
+        "Voltaje: 220V",
+        "Nivel de presión acústica: 91 dB(A)"
+      ]
+    },
+    {
+      "nombre": "Amoladora Angular Inalámbrica Bosch GWS 12V-76 Compacta",
+      "marca": "Bosch",
+      "descripcion": "Amoladora angular inalámbrica Bosch Professional GWS 12V-76 de 12V con motor brushless, disco de 76mm y velocidad de 19.500 RPM, de diseño extremadamente compacto para cortes rápidos.",
+      "imagenUrl": "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-12v-76-compacta.png",
+      "precio": 479163,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-12v-76-compacta-2.png",
+        "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-12v-76-compacta-3.png",
+        "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-12v-76-compacta-4.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: sistema 12V (no incluida)",
+        "Velocidad en vacío: 19.500 RPM",
+        "Diámetro de disco: 76mm",
+        "Peso con batería: 0,9kg / sin batería: 0,5kg",
+        "Rosca del eje: M5",
+        "Motor brushless",
+        "Extremadamente compacta y ergonómica para cortes rápidos"
+      ]
+    },
+    {
+      "nombre": "Amoladora Angular Inalámbrica Bosch GWS 18V-8",
+      "marca": "Bosch",
+      "descripcion": "Amoladora angular inalámbrica Bosch Professional GWS 18V-8 de 18V con disco de 125mm, velocidad de 11.000 RPM y potencia equivalente a 800W, con diseño compacto y liviano.",
+      "imagenUrl": "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-18v-8.png",
+      "precio": 349335,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-18v-8-2.jpg",
+        "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-18v-8-3.jpg",
+        "/catalogo/bosch/amoladoras/amoladora-angular-inalambrica-bosch-gws-18v-8-4.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 18V (no incluida)",
+        "Velocidad en vacío: 11.000 RPM",
+        "Diámetro de disco: 125mm",
+        "Rosca del eje: M14",
+        "Peso sin batería: 1,6kg",
+        "Potencia equivalente: 800W",
+        "Diseño compacto y liviano con agarre ergonómico"
+      ]
+    },
+    {
+      "nombre": "Amoladora Bosch GWS 20-125 SB Brushless 2000w",
+      "marca": "Bosch",
+      "descripcion": "Amoladora angular Bosch Professional Heavy Duty GWS 20-125 SB con motor brushless de categoría industrial, 2000W de potencia absorbida, velocidad variable de 2.800 a 10.500 RPM y sistema de frenado inteligente.",
+      "imagenUrl": "/catalogo/bosch/amoladoras/amoladora-bosch-gws-20-125-sb-brushless-2000w.png",
+      "precio": 867999,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-20-125-sb-brushless-2000w-2.png",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-20-125-sb-brushless-2000w-3.png",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-20-125-sb-brushless-2000w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia absorbida: 2000W / entregada: 1400W",
+        "Velocidad en vacío: 2.800-10.500 RPM",
+        "Diámetro de disco: 125mm",
+        "Peso: 2,4kg",
+        "Motor brushless de categoría industrial",
+        "Empuñadura ergonómica de 190mm",
+        "Sistema de frenado inteligente, arranque suave, control de retroceso y sobrecarga"
+      ]
+    },
+    {
+      "nombre": "Amoladora Bosch GWS 2200-230 230mm",
+      "marca": "Bosch",
+      "descripcion": "Amoladora angular Bosch Professional GWS 2200-230 de 2200W con disco de 230mm y velocidad de 6.500 RPM, descripta por Bosch como la amoladora de 2200W más liviana del mercado por su relación potencia-peso.",
+      "imagenUrl": "/catalogo/bosch/amoladoras/amoladora-bosch-gws-2200-230-230mm.png",
+      "precio": 320759,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-2200-230-230mm-2.png",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-2200-230-230mm-3.jpg",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-2200-230-230mm-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 2200W",
+        "Velocidad en vacío: 6.500 RPM",
+        "Diámetro de disco: 230mm",
+        "Diámetro de cabezal: 140mm",
+        "Peso: 5kg",
+        "La amoladora de 2200W más liviana del mercado según Bosch (mejor relación potencia-peso)"
+      ]
+    },
+    {
+      "nombre": "Amoladora Bosch GWS 770 115mm",
+      "marca": "Bosch",
+      "descripcion": "Amoladora angular Bosch Professional GWS 770 de 770W con disco de 115mm, velocidad de 12.000 RPM y rosca de eje M14, con interruptor bloqueable.",
+      "imagenUrl": "/catalogo/bosch/amoladoras/amoladora-bosch-gws-770-115mm.png",
+      "precio": 149832,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-770-115mm-2.png",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-770-115mm-3.jpg",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-770-115mm-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 770W",
+        "Velocidad en vacío: 12.000 RPM",
+        "Diámetro de disco: 115mm",
+        "Voltaje: 220V",
+        "Rosca del eje: M14",
+        "Peso: 1,37kg",
+        "Interruptor bloqueable"
+      ]
+    },
+    {
+      "nombre": "Amoladora Bosch GWS 9-125 S 900w",
+      "marca": "Bosch",
+      "descripcion": "Amoladora angular Bosch Professional GWS 9-125 S de 900W con disco de 125mm y velocidad de 2.800 a 11.000 RPM, de diseño ergonómico con interruptor bloqueable.",
+      "imagenUrl": "/catalogo/bosch/amoladoras/amoladora-bosch-gws-9-125-s-900w.png",
+      "precio": 254216,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-9-125-s-900w-2.jpg",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-9-125-s-900w-3.jpg",
+        "/catalogo/bosch/amoladoras/amoladora-bosch-gws-9-125-s-900w-4.png"
+      ],
+      "caracteristicas": [
+        "Potencia: 900W",
+        "Velocidad: 2.800-11.000 RPM",
+        "Diámetro de disco: 125mm",
+        "Peso: 1,9kg",
+        "Rosca del eje: M14",
+        "Interruptor bloqueable, diseño ergonómico"
+      ]
+    },
+    {
+      "nombre": "Rotomartillo Bosch GBH 2-26 DRE SDS Plus 800w",
+      "marca": "Bosch",
+      "descripcion": "Rotomartillo Bosch Professional GBH 2-26 DRE de 800W con energía de impacto de 2,7J y encastre SDS plus, con rango de perforación en concreto de 4 a 26mm.",
+      "imagenUrl": "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-2-26-dre-sds-plus-800w.png",
+      "precio": 430287,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-2-26-dre-sds-plus-800w-2.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia del motor: 800W",
+        "Energía de impacto: 2,7J",
+        "Velocidad: 0-900 RPM",
+        "Tasa de impacto: 0-4.000 IPM",
+        "Peso: 2,9kg",
+        "Rango de perforación en concreto: 4-26mm",
+        "Portaherramientas: SDS plus"
+      ]
+    },
+    {
+      "nombre": "Rotomartillo Bosch GBH 5-40 D SDS Max 1100w",
+      "marca": "Bosch",
+      "descripcion": "Rotomartillo Bosch Professional GBH 5-40 D de 1100W con energía de impacto de 8,5J y encastre SDS max, con capacidad de perforación en concreto de 12 a 40mm.",
+      "imagenUrl": "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-5-40-d-sds-max-1100w.png",
+      "precio": 1464320,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-5-40-d-sds-max-1100w-2.png",
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-5-40-d-sds-max-1100w-3.jpg"
+      ],
+      "caracteristicas": [
+        "Energía de impacto: 8,5J",
+        "Potencia: 1100W",
+        "Peso: 6,8kg",
+        "Portaherramientas: SDS max",
+        "Rango de perforación en concreto: 12-40mm",
+        "Tasa de impacto: 1.500-2.900 IPM",
+        "Velocidad de rotación: 170-340 RPM"
+      ]
+    },
+    {
+      "nombre": "Rotomartillo Bosch GBH 8-45 DV SDS Max 1500w",
+      "marca": "Bosch",
+      "descripcion": "Rotomartillo Bosch Professional GBH 8-45 DV de 1500W con energía de impacto de 12,5J y encastre SDS max, con capacidad de perforación en concreto de 12 a 45mm, control de vibración y arranque anti-reinicio.",
+      "imagenUrl": "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-8-45-dv-sds-max-1500w.png",
+      "precio": 2348545,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-8-45-dv-sds-max-1500w-2.png",
+        "/catalogo/bosch/rotomartillos/rotomartillo-bosch-gbh-8-45-dv-sds-max-1500w-3.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 1500W",
+        "Energía de impacto: 12,5J",
+        "Peso: 8,9kg",
+        "Rango de perforación en concreto: 12-45mm",
+        "Velocidad de rotación: 150-305 RPM",
+        "Tasa de impacto: 1.380-2.760 IPM",
+        "Portaherramientas: SDS max",
+        "Control de vibración y arranque anti-reinicio"
+      ]
+    },
+    {
+      "nombre": "Rotomartillo Inalámbrico Bosch GBH 18V-26 D SDS Plus",
+      "marca": "Bosch",
+      "descripcion": "Rotomartillo inalámbrico Bosch Professional GBH 18V-26 D de 18V con energía de impacto de 2,5J y encastre SDS plus, primer martillo inalámbrico de la marca con empuñadura D y control de retroceso (KickBack Control).",
+      "imagenUrl": "/catalogo/bosch/rotomartillos/rotomartillo-inalambrico-bosch-gbh-18v-26-d-sds-plus.png",
+      "precio": 499533,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/rotomartillos/rotomartillo-inalambrico-bosch-gbh-18v-26-d-sds-plus-2.png",
+        "/catalogo/bosch/rotomartillos/rotomartillo-inalambrico-bosch-gbh-18v-26-d-sds-plus-3.png",
+        "/catalogo/bosch/rotomartillos/rotomartillo-inalambrico-bosch-gbh-18v-26-d-sds-plus-4.jpg"
+      ],
+      "caracteristicas": [
+        "Batería: 18V (no incluida)",
+        "Energía de impacto: 2,5J",
+        "Portaherramientas: SDS plus",
+        "Rango de perforación en concreto: 4-26mm (óptimo 8-16mm)",
+        "Velocidad: 0-980 RPM / 0-4.350 IPM",
+        "Peso sin batería: 2,6kg",
+        "Primer martillo inalámbrico con empuñadura D y KickBack Control"
+      ]
+    },
+    {
+      "nombre": "Atornillador Inalámbrico para Drywall Bosch GTB185-LI",
+      "marca": "Bosch",
+      "descripcion": "Atornillador inalámbrico para drywall Bosch Professional GTB185-LI de 18V con velocidad de 4.500 RPM y torque máximo de 32 Nm, con portabrocas hexagonal de 1/4''.",
+      "imagenUrl": "/catalogo/bosch/destornilladores/atornillador-inalambrico-para-drywall-bosch-gtb185-li.png",
+      "precio": 400579,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/destornilladores/atornillador-inalambrico-para-drywall-bosch-gtb185-li-2.png",
+        "/catalogo/bosch/destornilladores/atornillador-inalambrico-para-drywall-bosch-gtb185-li-3.png"
+      ],
+      "caracteristicas": [
+        "Voltaje: 18V, batería 2Ah",
+        "Velocidad: 4.500 RPM",
+        "Torque máximo: 32 Nm",
+        "Peso sin batería: 0,95kg / con batería: 1,3kg",
+        "Portabrocas hexagonal Uni de 1/4\"",
+        "Diámetro máximo de atornillado: 6mm"
+      ]
+    },
+    {
+      "nombre": "Atornillador para Drywall Bosch GTB 650 650w",
+      "marca": "Bosch",
+      "descripcion": "Atornillador para drywall Bosch Professional GTB 650 de 650W con velocidad de hasta 5.000 RPM y torque máximo de 12 Nm, con portabrocas hexagonal de 1/4''.",
+      "imagenUrl": "/catalogo/bosch/destornilladores/atornillador-para-drywall-bosch-gtb-650-650w.png",
+      "precio": 420610,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/destornilladores/atornillador-para-drywall-bosch-gtb-650-650w-2.png",
+        "/catalogo/bosch/destornilladores/atornillador-para-drywall-bosch-gtb-650-650w-3.png",
+        "/catalogo/bosch/destornilladores/atornillador-para-drywall-bosch-gtb-650-650w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 650W",
+        "Velocidad: 0-5.000 RPM",
+        "Peso: 1,4kg",
+        "Torque máximo: 12 Nm",
+        "Portabrocas hexagonal Uni de 1/4\"",
+        "Diámetro máx. de atornillado: 4mm",
+        "Nivel de presión acústica: 84 dB(A)"
+      ]
+    },
+    {
+      "nombre": "Medidor Láser de Distancia Bosch GLM 40",
+      "marca": "Bosch",
+      "descripcion": "Medidor láser de distancia Bosch Professional GLM 40 con rango de medición de 0,15 a 40 metros y precisión de ±1,5mm, con memoria para 10 mediciones y protección IP54 contra polvo y agua.",
+      "imagenUrl": "/catalogo/bosch/herramientas-manuales/medidor-laser-de-distancia-bosch-glm-40.png",
+      "precio": 167765,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/herramientas-manuales/medidor-laser-de-distancia-bosch-glm-40-2.png",
+        "/catalogo/bosch/herramientas-manuales/medidor-laser-de-distancia-bosch-glm-40-3.jpg",
+        "/catalogo/bosch/herramientas-manuales/medidor-laser-de-distancia-bosch-glm-40-4.jpg"
+      ],
+      "caracteristicas": [
+        "Rango de medición: 0,150 - 40,000m",
+        "Precisión: ± 1,5mm",
+        "Pantalla iluminada con últimos 3 resultados",
+        "Memoria para 10 mediciones",
+        "Protección IP54 contra polvo y agua",
+        "Láser rojo (635nm, <1mW)",
+        "Peso: ~0,09kg",
+        "Modos: longitud, superficie, volumen y mediciones indirectas"
+      ]
+    },
+    {
+      "nombre": "Nivel Láser Verde Bosch GLL 2-20 G",
+      "marca": "Bosch",
+      "descripcion": "Nivel láser de líneas Bosch Professional GLL 2-20 G con línea verde horizontal de 360° de alta visibilidad, alcance de 10 metros y precisión de ±0,4mm/m, con carcasa resistente IP64.",
+      "imagenUrl": "/catalogo/bosch/herramientas-manuales/nivel-laser-verde-bosch-gll-2-20-g.png",
+      "precio": 392798,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/herramientas-manuales/nivel-laser-verde-bosch-gll-2-20-g-2.png",
+        "/catalogo/bosch/herramientas-manuales/nivel-laser-verde-bosch-gll-2-20-g-3.jpg",
+        "/catalogo/bosch/herramientas-manuales/nivel-laser-verde-bosch-gll-2-20-g-4.jpg"
+      ],
+      "caracteristicas": [
+        "Línea verde horizontal de 360° de gran visibilidad",
+        "Carcasa resistente con revestimiento de goma, IP64",
+        "Alcance: 10m",
+        "Precisión: ±0,4mm/m",
+        "Autonivelación: ±4°",
+        "Peso: 0,62kg",
+        "Clase láser 2"
+      ]
+    },
+    {
+      "nombre": "Nivel Láser de Líneas Bosch GLL 3-80",
+      "marca": "Bosch",
+      "descripcion": "Nivel láser de líneas Bosch Professional GLL 3-80 con proyección de 3 líneas a 360°, alcance de hasta 30 metros y precisión de ±0,3mm/m, con autonivelación en superficies irregulares de hasta ±4°.",
+      "imagenUrl": "/catalogo/bosch/herramientas-manuales/nivel-laser-de-lineas-bosch-gll-3-80.png",
+      "precio": 802901,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/bosch/herramientas-manuales/nivel-laser-de-lineas-bosch-gll-3-80-2.png",
+        "/catalogo/bosch/herramientas-manuales/nivel-laser-de-lineas-bosch-gll-3-80-3.jpg",
+        "/catalogo/bosch/herramientas-manuales/nivel-laser-de-lineas-bosch-gll-3-80-4.jpg"
+      ],
+      "caracteristicas": [
+        "Proyección: 3 líneas a 360°",
+        "Alcance: 30m (120m con receptores opcionales)",
+        "Precisión: ±0,3mm/m",
+        "Tiempo de nivelación: 4 segundos",
+        "Protección IP54",
+        "Autonivelación en superficies irregulares hasta ±4°",
+        "Peso: 0,82kg",
+        "Clase láser 2"
+      ]
+    },
+    {
+      "nombre": "Taladro Atornillador DeWalt DCD710S2-AR 12V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Taladro atornillador DeWalt DCD710S2-AR de 12V MAX con mandril autoajustable de 10mm y 15 posiciones de torque, caja de engranajes metálica y luz LED. Incluye cargador, dos baterías de ion-litio y clip de sujeción.",
+      "imagenUrl": "/catalogo/dewalt/taladros/taladro-atornillador-dewalt-dcd710s2-ar-12v-max.webp",
+      "precio": 92295,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/taladros/taladro-atornillador-dewalt-dcd710s2-ar-12v-max-2.webp",
+        "/catalogo/dewalt/taladros/taladro-atornillador-dewalt-dcd710s2-ar-12v-max-3.webp",
+        "/catalogo/dewalt/taladros/taladro-atornillador-dewalt-dcd710s2-ar-12v-max-4.webp",
+        "/catalogo/dewalt/taladros/taladro-atornillador-dewalt-dcd710s2-ar-12v-max-5.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 12V, batería 1.5Ah Ion-Litio",
+        "Mandril: 10mm autoajustable",
+        "15 posiciones de torque",
+        "Motor con carbones, caja de engranajes metálica",
+        "Luz LED"
+      ],
+      "incluye": "cargador, 2 baterías, clip de sujeción"
+    },
+    {
+      "nombre": "Taladro Percutor DeWalt DCD796B 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Taladro percutor DeWalt DCD796B de 20V MAX con mandril de 1/2'' (13mm), dos velocidades (0-550 y 0-2.000 RPM) y motor brushless, con LED integrado y gancho para cinturón. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd796b-20v-max.webp",
+      "precio": 347499,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dcd796b-20v-max-2.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V MAX (nominal 18V)",
+        "Mandril: 1/2\" (13mm)",
+        "Dos velocidades: 0-550 / 0-2.000 RPM",
+        "Motor sin carbones (brushless)",
+        "LED integrado",
+        "Gancho para cinturón",
+        "Garantía: 3 años limitada + 1 año mantenimiento gratis + 90 días satisfacción garantizada"
+      ]
+    },
+    {
+      "nombre": "Taladro Percutor DeWalt DWD024-AR 650w",
+      "marca": "DeWalt",
+      "descripcion": "Taladro percutor DeWalt DWD024-AR de 650W con velocidad variable de hasta 2.800 RPM y mandril de 1/2'' (13mm), con mango lateral de 360° y sistema de percusión mecánico para mampostería y bloques. Incluye llave de mandril, empuñadura y barra de profundidad.",
+      "imagenUrl": "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dwd024-ar-650w.webp",
+      "precio": 165916,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dwd024-ar-650w-2.webp",
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dwd024-ar-650w-3.webp",
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dwd024-ar-650w-4.webp",
+        "/catalogo/dewalt/taladros/taladro-percutor-dewalt-dwd024-ar-650w-5.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 650W",
+        "Velocidad variable: 0-2.800 RPM sin carga",
+        "Mandril: 1/2\" (13mm)",
+        "Sistema de percusión mecánico para mampostería, ladrillo y bloques",
+        "Mango lateral de 360° con varilla de profundidad",
+        "Motor con carbones, con cable"
+      ],
+      "incluye": "llave de mandril, empuñadura y barra de profundidad"
+    },
+    {
+      "nombre": "Taladro de Columna Magnético DeWalt DCD1623B FLEXVOLT",
+      "marca": "DeWalt",
+      "descripcion": "Taladro de columna magnético DeWalt DCD1623B de 20V MAX con motor brushless y capacidad de perforación de hasta 2'' en acero estructural, con 10 configuraciones de velocidad e imán permanente sin necesidad de carga. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/taladros/taladro-de-columna-magnetico-dewalt-dcd1623b-flexvolt.webp",
+      "precio": 3803739,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/taladros/taladro-de-columna-magnetico-dewalt-dcd1623b-flexvolt-2.webp",
+        "/catalogo/dewalt/taladros/taladro-de-columna-magnetico-dewalt-dcd1623b-flexvolt-3.webp",
+        "/catalogo/dewalt/taladros/taladro-de-columna-magnetico-dewalt-dcd1623b-flexvolt-4.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V, motor sin carbones (brushless)",
+        "Capacidad de perforación: hasta 2\" de acero estructural",
+        "10 configuraciones de velocidad (2 engranajes x 5 velocidades)",
+        "Imán permanente sin necesidad de carga",
+        "Tecnología E-CLUTCH (PERFORM & PROTECT)",
+        "Portabrocas de cambio rápido (vástago Weldon 3/4\" y portabrocas 1/2\")",
+        "Hasta 40 agujeros por carga",
+        "Hasta 32% más potente con batería FLEXVOLT DCB609",
+        "Se vende sin batería ni cargador"
+      ]
+    },
+    {
+      "nombre": "Taladro de Rotación DeWalt DW130V 16mm 710w",
+      "marca": "DeWalt",
+      "descripcion": "Taladro de rotación DeWalt DW130V-AR de 710W con velocidad variable reversible de hasta 550 RPM y mandril a llave de 16mm, con mango tipo espada de 2 posiciones y triple reducción de engranajes.",
+      "imagenUrl": "/catalogo/dewalt/taladros/taladro-de-rotacion-dewalt-dw130v-16mm-710w.webp",
+      "precio": 61750,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/taladros/taladro-de-rotacion-dewalt-dw130v-16mm-710w-2.webp",
+        "/catalogo/dewalt/taladros/taladro-de-rotacion-dewalt-dw130v-16mm-710w-3.webp",
+        "/catalogo/dewalt/taladros/taladro-de-rotacion-dewalt-dw130v-16mm-710w-4.webp",
+        "/catalogo/dewalt/taladros/taladro-de-rotacion-dewalt-dw130v-16mm-710w-5.webp",
+        "/catalogo/dewalt/taladros/taladro-de-rotacion-dewalt-dw130v-16mm-710w-6.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 710W",
+        "Velocidad variable reversible: 0-550 RPM sin carga",
+        "Mandril con llave: 16mm",
+        "Mango tipo espada \"D\" de 2 posiciones",
+        "Empuñadura lateral de 3 posiciones",
+        "Triple reducción de engranajes",
+        "Peso: 3,5kg",
+        "Motor con carbones, con cable",
+        "Garantía: 90 días limitada"
+      ]
+    },
+    {
+      "nombre": "Sierra Caladora DeWalt DCS331B 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Sierra caladora DeWalt DCS331B de 20V MAX con velocidad variable de hasta 3.000 CPM, cambio de hoja sin llave y acción orbital de 4 posiciones. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/sierras/sierra-caladora-dewalt-dcs331b-20v-max.webp",
+      "precio": 52500,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/sierras/sierra-caladora-dewalt-dcs331b-20v-max-2.webp",
+        "/catalogo/dewalt/sierras/sierra-caladora-dewalt-dcs331b-20v-max-3.webp",
+        "/catalogo/dewalt/sierras/sierra-caladora-dewalt-dcs331b-20v-max-4.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V (nominal 18V)",
+        "Velocidad variable: 0-3.000 CPM",
+        "Cambio de hoja sin llave",
+        "Zapata de metal con paradas a 0°, 15°, 30° y 45°",
+        "Acción orbital de 4 posiciones",
+        "Soplador de polvo ajustable, lock-on switch",
+        "Garantía: 3 años limitada"
+      ]
+    },
+    {
+      "nombre": "Sierra Circular Eléctrica DeWalt DWE560-AR 1400w",
+      "marca": "DeWalt",
+      "descripcion": "Sierra circular eléctrica DeWalt DWE560-AR de 1400W con hoja de 7-1/4'' (185mm) y ajuste de ángulo de bisel de hasta 48°. Incluye disco de 24 dientes y llave de ajuste.",
+      "imagenUrl": "/catalogo/dewalt/sierras/sierra-circular-electrica-dewalt-dwe560-ar-1400w.webp",
+      "precio": 240000,
+      "stock": 10,
+      "descuento": 15,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/sierras/sierra-circular-electrica-dewalt-dwe560-ar-1400w-2.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-electrica-dewalt-dwe560-ar-1400w-3.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-electrica-dewalt-dwe560-ar-1400w-4.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-electrica-dewalt-dwe560-ar-1400w-5.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-electrica-dewalt-dwe560-ar-1400w-6.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-electrica-dewalt-dwe560-ar-1400w-7.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 1400W",
+        "Hoja: 7-1/4\" (185mm)",
+        "Ajuste de ángulo de bisel hasta 48°",
+        "Zapata de 3mm de espesor",
+        "Con cable",
+        "Garantía: 3 años limitada + 1 año servicio gratuito"
+      ],
+      "incluye": "disco de 24 dientes y llave de ajuste"
+    },
+    {
+      "nombre": "Sierra Circular Inalámbrica DeWalt DCS570B 7-1-4 pulgada",
+      "marca": "DeWalt",
+      "descripcion": "Sierra circular inalámbrica DeWalt DCS570B de 20V MAX con motor brushless de 5.500 RPM, hoja de 7-1/4'' y capacidad de bisel de hasta 57°. Incluye disco de sierra.",
+      "imagenUrl": "/catalogo/dewalt/sierras/sierra-circular-inalambrica-dewalt-dcs570b-7-1-4-pulgada.webp",
+      "precio": 462600,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/sierras/sierra-circular-inalambrica-dewalt-dcs570b-7-1-4-pulgada-2.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-inalambrica-dewalt-dcs570b-7-1-4-pulgada-3.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-inalambrica-dewalt-dcs570b-7-1-4-pulgada-4.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-inalambrica-dewalt-dcs570b-7-1-4-pulgada-5.webp",
+        "/catalogo/dewalt/sierras/sierra-circular-inalambrica-dewalt-dcs570b-7-1-4-pulgada-6.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V MAX",
+        "Motor sin carbones: 5.500 RPM",
+        "Capacidad de hoja: 7-1/4\" (184mm)",
+        "Profundidad de corte: 2-9/16\" a 90°",
+        "Capacidad de bisel hasta 57°",
+        "Paradas de bisel a 22,5° y 45°",
+        "Garantía: 3 años limitada"
+      ],
+      "incluye": "disco de sierra"
+    },
+    {
+      "nombre": "Lijadora Orbital Inalámbrica DeWalt DCW210B 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Lijadora orbital aleatoria inalámbrica DeWalt DCW210B de 5'' (127mm) y 20V MAX con motor brushless y velocidad variable de 8.000 a 12.000 OPM, con interruptor sellado contra polvo. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/lijadoras/lijadora-orbital-inalambrica-dewalt-dcw210b-20v-max.webp",
+      "precio": 49990,
+      "stock": 10,
+      "descuento": 30,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/lijadoras/lijadora-orbital-inalambrica-dewalt-dcw210b-20v-max-2.webp",
+        "/catalogo/dewalt/lijadoras/lijadora-orbital-inalambrica-dewalt-dcw210b-20v-max-3.webp",
+        "/catalogo/dewalt/lijadoras/lijadora-orbital-inalambrica-dewalt-dcw210b-20v-max-4.webp",
+        "/catalogo/dewalt/lijadoras/lijadora-orbital-inalambrica-dewalt-dcw210b-20v-max-5.webp",
+        "/catalogo/dewalt/lijadoras/lijadora-orbital-inalambrica-dewalt-dcw210b-20v-max-6.webp"
+      ],
+      "caracteristicas": [
+        "Velocidad variable: 8.000-12.000 OPM",
+        "Motor sin escobillas (brushless)",
+        "Voltaje: 20V (nominal 18V)",
+        "Recubrimiento de goma",
+        "Interruptor sellado contra polvo",
+        "Incluye bolsa para polvo",
+        "Garantía: 90 días limitada"
+      ]
+    },
+    {
+      "nombre": "Lijadora Roto Orbital DeWalt DWE6421-AR 275w",
+      "marca": "DeWalt",
+      "descripcion": "Lijadora roto orbital DeWalt DWE6421-AR de 275W con velocidad de 12.000 OPM y almohadilla de 5'' con sistema de velcro, con diseño balanceado de baja vibración y bolsa recolectora con adaptador para extractor.",
+      "imagenUrl": "/catalogo/dewalt/lijadoras/lijadora-roto-orbital-dewalt-dwe6421-ar-275w.webp",
+      "precio": 320189,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/lijadoras/lijadora-roto-orbital-dewalt-dwe6421-ar-275w-2.webp",
+        "/catalogo/dewalt/lijadoras/lijadora-roto-orbital-dewalt-dwe6421-ar-275w-3.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 275W",
+        "Velocidad: 12.000 OPM",
+        "Diámetro orbital: 2-6mm",
+        "Diseño balanceado de baja vibración",
+        "Almohadilla de 5\" con sistema velcro",
+        "Rodamientos de bola sellados",
+        "Bolsa recolectora con adaptador para extractor",
+        "Garantía: 90 días limitada"
+      ]
+    },
+    {
+      "nombre": "Amoladora Angular DeWalt DWE4120-AR 115mm 900w",
+      "marca": "DeWalt",
+      "descripcion": "Amoladora angular DeWalt DWE4120-AR de 900W para discos de 115mm, con interruptor tipo paleta, guarda de seguridad de ajuste rápido en 360° y bloqueo de eje.",
+      "imagenUrl": "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4120-ar-115mm-900w.webp",
+      "precio": 224127,
+      "stock": 10,
+      "descuento": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4120-ar-115mm-900w-2.webp",
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4120-ar-115mm-900w-3.webp",
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4120-ar-115mm-900w-4.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 900W",
+        "Tamaño de accesorio: 115mm",
+        "Interruptor tipo paleta",
+        "Guarda de seguridad de ajuste rápido 360°",
+        "Caja de engranajes de perfil bajo",
+        "Mango auxiliar de dos posiciones",
+        "Bloqueo del eje",
+        "Garantía: 3 años limitada + 1 año mantenimiento gratuito + 90 días satisfacción garantizada"
+      ]
+    },
+    {
+      "nombre": "Amoladora Angular DeWalt DWE4212-AR 125mm 1200w",
+      "marca": "DeWalt",
+      "descripcion": "Amoladora angular DeWalt DWE4212-AR de 1200W para discos de 125mm, con velocidad de 11.000 RPM y sistema de expulsión de polvo que protege el motor. Incluye llave de ajuste, empuñadura lateral y disco de desbaste.",
+      "imagenUrl": "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4212-ar-125mm-1200w.webp",
+      "precio": 301505,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4212-ar-125mm-1200w-2.webp",
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4212-ar-125mm-1200w-3.webp",
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4212-ar-125mm-1200w-4.webp",
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4212-ar-125mm-1200w-5.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 1200W",
+        "Velocidad: 11.000 RPM",
+        "Sistema de expulsión de polvo que protege el motor",
+        "Interruptor tipo paleta",
+        "Mango robusto de 2 posiciones",
+        "Guarda de seguridad de ajuste rápido 360°"
+      ],
+      "incluye": "llave de ajuste, empuñadura lateral, disco de desbaste"
+    },
+    {
+      "nombre": "Amoladora Angular DeWalt DWE4557-AR 180mm 2400w",
+      "marca": "DeWalt",
+      "descripcion": "Amoladora angular DeWalt DWE4557-AR de 2400W para discos de 180mm, con velocidad máxima de 8.500 RPM y empuñaduras antivibración. Incluye llave de ajuste, empuñadura lateral y disco de desbaste.",
+      "imagenUrl": "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4557-ar-180mm-2400w.webp",
+      "precio": 529666,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/amoladoras/amoladora-angular-dewalt-dwe4557-ar-180mm-2400w-2.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 2400W (4,7 CV)",
+        "Velocidad máxima: 8.500 RPM",
+        "Peso: 5,2kg",
+        "Sistema de expulsión de polvo, empuñaduras antivibración",
+        "Guarda de seguridad de ajuste rápido",
+        "Cepillos de desconexión automática",
+        "Garantía: 3 años limitada + 1 año servicio gratuito + 90 días satisfacción garantizada"
+      ],
+      "incluye": "llave de ajuste, empuñadura lateral, disco de desbaste"
+    },
+    {
+      "nombre": "Esmeriladora Angular Inalámbrica DeWalt DCG440B 60V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Esmeriladora angular inalámbrica DeWalt DCG440B de 60V MAX para discos de 180mm, con motor brushless hasta 30% más torque que su predecesora y sistema Kickback Brake con freno rápido de disco. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/amoladoras/esmeriladora-angular-inalambrica-dewalt-dcg440b-60v-max.webp",
+      "precio": 629040,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/amoladoras/esmeriladora-angular-inalambrica-dewalt-dcg440b-60v-max-2.webp",
+        "/catalogo/dewalt/amoladoras/esmeriladora-angular-inalambrica-dewalt-dcg440b-60v-max-3.webp",
+        "/catalogo/dewalt/amoladoras/esmeriladora-angular-inalambrica-dewalt-dcg440b-60v-max-4.webp",
+        "/catalogo/dewalt/amoladoras/esmeriladora-angular-inalambrica-dewalt-dcg440b-60v-max-5.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 60V MAX, inalámbrica a batería",
+        "Tamaño de disco: 180mm",
+        "Motor sin carbones (brushless), 17% más eficiente",
+        "Hasta 30% más torque que el modelo DCG418",
+        "Sistema Kickback Brake y E-Clutch",
+        "Freno rápido de disco",
+        "Compatible con CHIP TOOL CONNECT"
+      ],
+      "incluye": "mango lateral, disco de lijado, guarda tipo 27, cubierta de tubería, llave hexagonal y brida externa"
+    },
+    {
+      "nombre": "Martillo Cincelador DeWalt D25810K-AR SDS Max",
+      "marca": "DeWalt",
+      "descripcion": "Martillo cincelador DeWalt D25810K-AR de 1050W con energía de impacto de 7,1J y mandril SDS Max, con tecnología Active Vibration Control. Incluye mango lateral multiposición y maletín plástico resistente.",
+      "imagenUrl": "/catalogo/dewalt/rotomartillos/martillo-cincelador-dewalt-d25810k-ar-sds-max.webp",
+      "precio": 1522000,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/rotomartillos/martillo-cincelador-dewalt-d25810k-ar-sds-max-2.webp",
+        "/catalogo/dewalt/rotomartillos/martillo-cincelador-dewalt-d25810k-ar-sds-max-3.webp"
+      ],
+      "caracteristicas": [
+        "Potencia: 1050W",
+        "Energía de impacto: 7,1J",
+        "Velocidad: 3.150 golpes por minuto",
+        "Peso: 6kg",
+        "Mandril SDS Max",
+        "Tecnología Active Vibration Control",
+        "Mango lateral de baja vibración"
+      ],
+      "incluye": "mango lateral multiposición, maletín plástico resistente"
+    },
+    {
+      "nombre": "Martillo Demoledor DeWalt D25881K-AR SDS Max 10kg",
+      "marca": "DeWalt",
+      "descripcion": "Martillo demoledor DeWalt D25881K-AR de 1600W con energía de impacto de 17J y mandril SDS Max, con control electrónico de velocidad variable y 12 posiciones de cincel ajustables.",
+      "imagenUrl": "/catalogo/dewalt/rotomartillos/martillo-demoledor-dewalt-d25881k-ar-sds-max-10kg.webp",
+      "precio": 1760672,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/rotomartillos/martillo-demoledor-dewalt-d25881k-ar-sds-max-10kg-2.webp",
+        "/catalogo/dewalt/rotomartillos/martillo-demoledor-dewalt-d25881k-ar-sds-max-10kg-3.webp",
+        "/catalogo/dewalt/rotomartillos/martillo-demoledor-dewalt-d25881k-ar-sds-max-10kg-4.webp",
+        "/catalogo/dewalt/rotomartillos/martillo-demoledor-dewalt-d25881k-ar-sds-max-10kg-5.webp",
+        "/catalogo/dewalt/rotomartillos/martillo-demoledor-dewalt-d25881k-ar-sds-max-10kg-6.webp"
+      ],
+      "caracteristicas": [
+        "Energía de impacto: 17J",
+        "Potencia: 1600W",
+        "Mandril: SDS Max",
+        "Peso: 10kg",
+        "Control electrónico de velocidad variable",
+        "12 posiciones de cincel ajustables",
+        "Mango lateral ajustable a 360°",
+        "Indicador LED de vida útil de escobillas",
+        "Garantía: 3 años limitada + 1 año servicio gratuito"
+      ]
+    },
+    {
+      "nombre": "Rotomartillo SDS Plus DeWalt DCH133B 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Rotomartillo SDS Plus DeWalt DCH133B de 20V MAX con motor brushless y energía de impacto de 2,6J, con selector de 3 modos (taladro, percutor y cincelador) y mango lateral de 360°. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/rotomartillos/rotomartillo-sds-plus-dewalt-dch133b-20v-max.webp",
+      "precio": 493999,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/rotomartillos/rotomartillo-sds-plus-dewalt-dch133b-20v-max-2.webp",
+        "/catalogo/dewalt/rotomartillos/rotomartillo-sds-plus-dewalt-dch133b-20v-max-3.webp",
+        "/catalogo/dewalt/rotomartillos/rotomartillo-sds-plus-dewalt-dch133b-20v-max-4.webp",
+        "/catalogo/dewalt/rotomartillos/rotomartillo-sds-plus-dewalt-dch133b-20v-max-5.webp",
+        "/catalogo/dewalt/rotomartillos/rotomartillo-sds-plus-dewalt-dch133b-20v-max-6.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V MAX (nominal 18V), motor brushless",
+        "Energía de impacto: 2,6J",
+        "Mandril SDS+, rango de perforación: 5-16mm",
+        "Selector de 3 modos: taladro, percutor, cincelador",
+        "Mango lateral de 360°",
+        "Garantía: 3 años limitada + 1 año servicio gratuito"
+      ]
+    },
+    {
+      "nombre": "Atornillador de Alto Torque DeWalt DW268-AR",
+      "marca": "DeWalt",
+      "descripcion": "Atornillador de alto torque DeWalt DW268-AR con embrague regulable, torque de 132 in-lbs y velocidad de hasta 2.500 RPM, con sistema automático de regulación de profundidad y doble reducción de engranajes.",
+      "imagenUrl": "/catalogo/dewalt/destornilladores/atornillador-de-alto-torque-dewalt-dw268-ar.webp",
+      "precio": 492047,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/destornilladores/atornillador-de-alto-torque-dewalt-dw268-ar-2.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-alto-torque-dewalt-dw268-ar-3.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-alto-torque-dewalt-dw268-ar-4.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-alto-torque-dewalt-dw268-ar-5.webp"
+      ],
+      "caracteristicas": [
+        "Torque: 132 in-lbs",
+        "Velocidad: 0-2.500 RPM",
+        "Peso: 1,7kg",
+        "Motor con carbones, con cable",
+        "Sistema automático de regulación de profundidad",
+        "Doble reducción de engranajes",
+        "Anclaje de cinturón integrado",
+        "Garantía: 3 años limitada + 1 año servicio gratuito + 90 días satisfacción garantizada"
+      ]
+    },
+    {
+      "nombre": "Atornillador de Impacto DeWalt DCF809B ATOMIC 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Atornillador de impacto DeWalt DCF809B ATOMIC de 20V MAX con diseño compacto de 130mm, torque de 192 Nm y motor brushless con 3 luces LED. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max.webp",
+      "precio": 346785,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max-2.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max-3.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max-4.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max-5.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max-6.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max-7.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf809b-atomic-20v-max-8.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V MAX (nominal 18V)",
+        "Tamaño compacto: 130mm de frente a atrás",
+        "Torque: 192 Nm",
+        "Motor sin escobillas (brushless)",
+        "3 luces LED",
+        "Mandril: 1/4\" (6,4mm)",
+        "Garantía: 3 años limitada + 1 año servicio gratuito + 90 días satisfacción garantizada"
+      ]
+    },
+    {
+      "nombre": "Atornillador de Impacto DeWalt DCF887B-AR Brushless 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Atornillador de impacto DeWalt DCF887B-AR de 20V MAX con motor brushless, 3 velocidades ajustables y 3 ajustes de torque más modo de precisión, con diseño ergonómico tipo \"T\" y 3 luces LED de trabajo.",
+      "imagenUrl": "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf887b-ar-brushless-20v-max.webp",
+      "precio": 427345,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf887b-ar-brushless-20v-max-2.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-de-impacto-dewalt-dcf887b-ar-brushless-20v-max-3.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V, motor sin carbones (brushless)",
+        "3 velocidades ajustables",
+        "3 ajustes de torque + modo precisión",
+        "Diseño ergonómico tipo \"T\"",
+        "3 luces LED de trabajo",
+        "Indicador de carga de batería",
+        "Garantía: 3 años limitada + 1 año servicio gratis + 90 días satisfacción garantizada"
+      ]
+    },
+    {
+      "nombre": "Atornillador para Placa de Yeso DeWalt DCF620B 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Atornillador para placa de yeso DeWalt DCF620B de 20V MAX con motor brushless, velocidad de 4.400 RPM y nariz tipo cono ajustable en 3 profundidades, con luz de trabajo LED y gancho para cinturón.",
+      "imagenUrl": "/catalogo/dewalt/destornilladores/atornillador-para-placa-de-yeso-dewalt-dcf620b-20v-max.webp",
+      "precio": 330000,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/destornilladores/atornillador-para-placa-de-yeso-dewalt-dcf620b-20v-max-2.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-para-placa-de-yeso-dewalt-dcf620b-20v-max-3.webp",
+        "/catalogo/dewalt/destornilladores/atornillador-para-placa-de-yeso-dewalt-dcf620b-20v-max-4.webp"
+      ],
+      "caracteristicas": [
+        "Voltaje: 20V (nominal 18V), motor sin escobillas (brushless)",
+        "Velocidad: 4.400 RPM",
+        "Sistema automático de regulación de profundidad",
+        "Nariz tipo cono ajustable en 3 profundidades",
+        "Luz de trabajo LED",
+        "Gancho para cinturón",
+        "Garantía: 3 años limitada + 1 año servicio gratuito + 90 días satisfacción garantizada"
+      ]
+    },
+    {
+      "nombre": "Llave de Impacto DeWalt DCF897B 3-4 pulgada 20V MAX",
+      "marca": "DeWalt",
+      "descripcion": "Llave de impacto DeWalt DCF897B de 20V MAX con cuadrante de 3/4'' (19mm), torque máximo de 700 pies-lbs y motor brushless con 3 velocidades de control. Se vende sin batería.",
+      "imagenUrl": "/catalogo/dewalt/destornilladores/llave-de-impacto-dewalt-dcf897b-3-4-pulgada-20v-max.webp",
+      "precio": 650000,
+      "stock": 10,
+      "idCategoria": 6,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/destornilladores/llave-de-impacto-dewalt-dcf897b-3-4-pulgada-20v-max-2.webp",
+        "/catalogo/dewalt/destornilladores/llave-de-impacto-dewalt-dcf897b-3-4-pulgada-20v-max-3.webp"
+      ],
+      "caracteristicas": [
+        "Torque máximo: 700 pies-lbs (~950 Nm)",
+        "Cuadrante de 3/4\" (19mm) con anillo y pin de retención",
+        "Control de velocidad variable: 3 velocidades (0-400/0-1200/0-1900)",
+        "Motor sin escobillas (brushless)",
+        "Luz de trabajo LED",
+        "Voltaje: 20V (nominal 18V)",
+        "Garantía: 3 años limitada + 1 año servicio gratuito"
+      ]
+    },
+    {
+      "nombre": "Nivel Láser de Líneas Cruzadas DeWalt DCLE34020GB",
+      "marca": "DeWalt",
+      "descripcion": "Nivel láser de líneas cruzadas DeWalt DCLE34020GB compatible con baterías de 12V y 20V MAX, con haz verde de alta visibilidad, rango de trabajo de 85 metros y nivelación automática de ±4°.",
+      "imagenUrl": "/catalogo/dewalt/herramientas-manuales/nivel-laser-de-lineas-cruzadas-dewalt-dcle34020gb.webp",
+      "precio": 509313,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/dewalt/herramientas-manuales/nivel-laser-de-lineas-cruzadas-dewalt-dcle34020gb-2.webp",
+        "/catalogo/dewalt/herramientas-manuales/nivel-laser-de-lineas-cruzadas-dewalt-dcle34020gb-3.webp"
+      ],
+      "caracteristicas": [
+        "Haz láser verde de alta visibilidad, 2 haces",
+        "Compatible con baterías 12V y 20V MAX",
+        "Autonomía: 24 horas con batería 20V MAX de 2Ah",
+        "Rango de trabajo: 85m (100m con detector)",
+        "Nivelación automática ±4°",
+        "Exactitud: ±3mm/10m",
+        "Clasificación IP54",
+        "Imanes fuertes para sujeción en estructuras metálicas"
+      ]
+    },
+    {
+      "nombre": "Taladro Atornillador Inalámbrico Gamma G12101AR 12V",
+      "marca": "Gamma",
+      "descripcion": "Taladro atornillador inalámbrico Gamma G12101AR de 12V con dos velocidades (0-350 y 0-1.300 RPM), torque máximo de 24 Nm y mandril sin llave de 10mm. Incluye dos baterías, cargador y maletín.",
+      "imagenUrl": "/catalogo/gamma/taladros/taladro-atornillador-inalambrico-gamma-g12101ar-12v.jpg",
+      "precio": 150118,
+      "stock": 10,
+      "idCategoria": 1,
+      "caracteristicas": [
+        "Velocidad sin carga: 0-350 / 0-1.300 RPM (2 velocidades)",
+        "Torque máximo: 24 N.m",
+        "Mandril sin llave: 10mm",
+        "Batería: 12V, 1.300mAh",
+        "Tiempo de carga: 60 minutos",
+        "Peso sin batería: 1,1kg",
+        "Iluminación LED adicional"
+      ],
+      "incluye": "2 baterías, 1 cargador y maletín"
+    },
+    {
+      "nombre": "Taladro Gamma G1919AR 850w",
+      "marca": "Gamma",
+      "descripcion": "Taladro Gamma G1919AR de 850W con velocidad de 0 a 3.000 RPM y mandril de 1,5 a 13mm, con función de percusión, selector de reversa y doble aislación.",
+      "imagenUrl": "/catalogo/gamma/taladros/taladro-gamma-g1919ar-850w.jpg",
+      "precio": 89539,
+      "stock": 10,
+      "idCategoria": 1,
+      "caracteristicas": [
+        "Potencia: 850W",
+        "Alimentación: 220V ~ 50Hz",
+        "Velocidad: 0-3.000 RPM",
+        "Mandril: 1,5 a 13mm",
+        "Con percusión, doble aislación",
+        "Selector de percusión y reversa, velocidad variable",
+        "Garantía: 24 meses"
+      ]
+    },
+    {
+      "nombre": "Taladro de Impacto Gamma G1902AR 850w",
+      "marca": "Gamma",
+      "descripcion": "Taladro de impacto Gamma G1902AR de 850W con velocidad sin carga de hasta 2.900 RPM y capacidad máxima de perforación de 13mm en acero, con mandril a llave de 1,5 a 13mm y doble aislación.",
+      "imagenUrl": "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1902ar-850w.jpg",
+      "precio": 71900,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1902ar-850w-2.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 850W",
+        "Alimentación: 220V ~ 50Hz",
+        "Velocidad sin carga: 0-2.900 RPM",
+        "Capacidad máxima en acero: 13mm",
+        "Mandril: 1,5 a 13mm (a llave)",
+        "Con percusión, doble aislación, selector de reversa"
+      ]
+    },
+    {
+      "nombre": "Taladro de Impacto Gamma G1908KAR 650w En Kit",
+      "marca": "Gamma",
+      "descripcion": "Taladro de impacto Gamma G1908KAR de 650W con velocidad de 0 a 2.800 RPM y mandril de 1,5 a 13mm, con función de percusión y reversa. Incluye maletín con cinta métrica, puntas de atornillar, nivel, pinza y mechas, entre otros accesorios.",
+      "imagenUrl": "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1908kar-650w-en-kit.jpg",
+      "precio": 143022,
+      "stock": 10,
+      "idCategoria": 1,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1908kar-650w-en-kit-2.jpg",
+        "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1908kar-650w-en-kit-3.jpg",
+        "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1908kar-650w-en-kit-4.jpg",
+        "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1908kar-650w-en-kit-5.jpg",
+        "/catalogo/gamma/taladros/taladro-de-impacto-gamma-g1908kar-650w-en-kit-6.jpg"
+      ],
+      "caracteristicas": [
+        "Modelo: TIG-908",
+        "Potencia: 650W",
+        "Alimentación: 220V ~ 50Hz",
+        "Velocidad: 0-2.800 RPM",
+        "Mandril: 1,5 a 13mm",
+        "Con percusión y reversa, doble aislación"
+      ],
+      "incluye": "maletín con: cinta métrica, 20 puntas de atornillar, 9 tubos, porta puntas, nivel, pinza, destornillador, cutter, llave francesa, martillo, pinza universal y mechas para pared/metal/madera"
+    },
+    {
+      "nombre": "Sierra Caladora Pendular Láser Gamma G1942AR 800w",
+      "marca": "Gamma",
+      "descripcion": "Sierra caladora pendular Gamma G1942AR de 800W con marcador láser de precisión, ángulo de corte de 0 a 45° y capacidad de corte de 110mm en madera y 12mm en metal, con regulador pendular y de velocidad variable.",
+      "imagenUrl": "/catalogo/gamma/sierras/sierra-caladora-pendular-laser-gamma-g1942ar-800w.jpg",
+      "precio": 141136,
+      "stock": 10,
+      "idCategoria": 2,
+      "caracteristicas": [
+        "Potencia: 800W",
+        "Alimentación: 220V ~ 50Hz",
+        "Ángulo de corte: 0-45°",
+        "Capacidad de corte: madera 110mm, metal 12mm",
+        "Velocidad sin carga: 0-3.000 RPM",
+        "Peso: 2kg",
+        "Marcador láser de precisión",
+        "Regulador pendular y de velocidad variable",
+        "Empuñadura acolchonada (soft grip)"
+      ]
+    },
+    {
+      "nombre": "Sierra Circular con Láser Gamma G1930AR 1300w",
+      "marca": "Gamma",
+      "descripcion": "Sierra circular Gamma G1930AR de 1300W con hoja de 185mm, velocidad sin carga de 4.700 RPM y capacidad de corte de 64mm a 90° y 45mm a 45°, con guía láser y cabezal reclinable para cortes en bisel.",
+      "imagenUrl": "/catalogo/gamma/sierras/sierra-circular-con-laser-gamma-g1930ar-1300w.jpg",
+      "precio": 141570,
+      "stock": 10,
+      "idCategoria": 2,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/sierras/sierra-circular-con-laser-gamma-g1930ar-1300w-2.jpg",
+        "/catalogo/gamma/sierras/sierra-circular-con-laser-gamma-g1930ar-1300w-3.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 1300W",
+        "Alimentación: 220V ~ 50Hz",
+        "Medida de hoja: 185 x 20 x 1,7mm",
+        "Velocidad sin carga: 4.700 RPM",
+        "Ángulo de corte: 0-45°",
+        "Capacidad de corte: 64mm a 90° / 45mm a 45°",
+        "Peso: 4kg",
+        "Protector de disco de radio completo",
+        "Cabezal reclinable para cortes en bisel",
+        "Garantía: 24 meses"
+      ]
+    },
+    {
+      "nombre": "Lijadora Orbital Gamma G1920AR 180w",
+      "marca": "Gamma",
+      "descripcion": "Lijadora orbital Gamma G1920AR de 180W con velocidad sin carga de 12.000 RPM y base de 186x90mm, con sistema de prensa lijas y bolsa recolectora con sistema de aspiración.",
+      "imagenUrl": "/catalogo/gamma/lijadoras/lijadora-orbital-gamma-g1920ar-180w.jpg",
+      "precio": 55999,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/lijadoras/lijadora-orbital-gamma-g1920ar-180w-2.jpg",
+        "/catalogo/gamma/lijadoras/lijadora-orbital-gamma-g1920ar-180w-3.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 180W",
+        "Alimentación: 220V ~ 50Hz",
+        "Velocidad sin carga: 12.000 RPM",
+        "Base: 186 x 90mm",
+        "Lija: 228 x 93mm",
+        "Peso: 1,5kg",
+        "Sistema de prensa lijas",
+        "Bolsa recolectora con sistema de aspiración",
+        "Empuñadura acolchonada antideslizante"
+      ]
+    },
+    {
+      "nombre": "Lijadora de Banda Gamma G1925AR 850w",
+      "marca": "Gamma",
+      "descripcion": "Lijadora de banda Gamma G1925AR de 850W con banda de 76x533mm y velocidad regulable de 0 a 370 RPM, con centrador de banda y bolsa recolectora de polvo.",
+      "imagenUrl": "/catalogo/gamma/lijadoras/lijadora-de-banda-gamma-g1925ar-850w.jpg",
+      "precio": 155999,
+      "stock": 10,
+      "idCategoria": 3,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/lijadoras/lijadora-de-banda-gamma-g1925ar-850w-2.jpg",
+        "/catalogo/gamma/lijadoras/lijadora-de-banda-gamma-g1925ar-850w-3.jpg",
+        "/catalogo/gamma/lijadoras/lijadora-de-banda-gamma-g1925ar-850w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 850W",
+        "Alimentación: 220V ~ 50Hz monofásica",
+        "Banda: 76 x 533mm",
+        "Velocidad de banda en vacío: 0-370 RPM",
+        "Peso: 3,5kg",
+        "Centrador de banda, regulador de velocidad",
+        "Bolsa recolectora de polvo, empuñadura acolchonada"
+      ]
+    },
+    {
+      "nombre": "Amoladora Angular Gamma G1917AR 850w",
+      "marca": "Gamma",
+      "descripcion": "Amoladora angular Gamma G1917AR de 850W con velocidad sin carga de 11.000 RPM y disco de 115mm, con rosca de eje M14x2 y diseño compacto y ergonómico.",
+      "imagenUrl": "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1917ar-850w.jpg",
+      "precio": 73699,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1917ar-850w-2.jpg",
+        "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1917ar-850w-3.jpg",
+        "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1917ar-850w-4.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 850W",
+        "Velocidad sin carga: 11.000 RPM",
+        "Medida de disco: 115 x 4,5 x 22mm",
+        "Rosca del eje: M14x2",
+        "Alimentación: 220V ~ 50Hz",
+        "Diseño compacto y ergonómico"
+      ]
+    },
+    {
+      "nombre": "Amoladora Angular Gamma G1922AR 500w Select",
+      "marca": "Gamma",
+      "descripcion": "Amoladora angular Gamma G1922AR de la línea Select, de 500W, con velocidad sin carga de 11.000 RPM y disco de 115mm, de diseño ergonómico y compacto.",
+      "imagenUrl": "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1922ar-500w-select.jpg",
+      "precio": 48900,
+      "stock": 10,
+      "idCategoria": 4,
+      "caracteristicas": [
+        "Potencia: 500W",
+        "Velocidad sin carga: 11.000 RPM",
+        "Diámetro de disco: 115mm",
+        "Rosca de eje: M14x2",
+        "Alimentación: 220V ~ 50Hz",
+        "Diseño ergonómico y compacto"
+      ]
+    },
+    {
+      "nombre": "Amoladora Angular Gamma G1923AR 710w",
+      "marca": "Gamma",
+      "descripcion": "Amoladora angular Gamma G1923AR de 710W con velocidad sin carga de 11.000 RPM y disco de 115mm, con sistema de ventilación optimizado y rosca de eje M14x2.",
+      "imagenUrl": "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1923ar-710w.jpg",
+      "precio": 73587,
+      "stock": 10,
+      "idCategoria": 4,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1923ar-710w-2.jpg",
+        "/catalogo/gamma/amoladoras/amoladora-angular-gamma-g1923ar-710w-3.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 710W",
+        "Velocidad sin carga: 11.000 RPM",
+        "Diámetro de disco: 115mm",
+        "Rosca de eje: M14x2",
+        "Alimentación: 220V ~ 50Hz",
+        "Sistema de ventilación optimizado",
+        "Garantía: 24 meses"
+      ]
+    },
+    {
+      "nombre": "Martillo Electroneumático Gamma G1956AR 1500w Para Obra",
+      "marca": "Gamma",
+      "descripcion": "Martillo electroneumático para obra Gamma G1956AR con potencia nominal de 1400W, tasa de impacto de 3.600 golpes por minuto y encastre HEX. Incluye pomo de aceite, cepillo de carbón, dos cinceles, llave y maletín.",
+      "imagenUrl": "/catalogo/gamma/rotomartillos/martillo-electroneumatico-gamma-g1956ar-1500w-para-obra.jpg",
+      "precio": 185000,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/rotomartillos/martillo-electroneumatico-gamma-g1956ar-1500w-para-obra-2.jpg",
+        "/catalogo/gamma/rotomartillos/martillo-electroneumatico-gamma-g1956ar-1500w-para-obra-3.jpg",
+        "/catalogo/gamma/rotomartillos/martillo-electroneumatico-gamma-g1956ar-1500w-para-obra-4.jpg",
+        "/catalogo/gamma/rotomartillos/martillo-electroneumatico-gamma-g1956ar-1500w-para-obra-5.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia nominal: 1400W",
+        "Tensión: 220V, 50Hz",
+        "Tasa de impacto: 3.600 golpes por minuto",
+        "Potencia de impacto: 20J",
+        "Encastre: HEX",
+        "Cable: 2 metros"
+      ],
+      "incluye": "pomo de aceite, cepillo de carbón, 2 cinceles (14x250mm), llave para tapa de aceite, maletín"
+    },
+    {
+      "nombre": "Martillo Rotativo Gamma G1951AR 1500w SDS Plus",
+      "marca": "Gamma",
+      "descripcion": "Martillo rotativo electroneumático Gamma G1951AR de 1500W con 4.100 impactos por minuto y potencia de impacto de 7,5J, con encastre SDS Plus y empuñadura con amortiguador de vibraciones.",
+      "imagenUrl": "/catalogo/gamma/rotomartillos/martillo-rotativo-gamma-g1951ar-1500w-sds-plus.jpg",
+      "precio": 148999,
+      "stock": 10,
+      "idCategoria": 5,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/rotomartillos/martillo-rotativo-gamma-g1951ar-1500w-sds-plus-2.jpg"
+      ],
+      "caracteristicas": [
+        "Potencia: 1500W",
+        "Velocidad sin carga: 750 RPM",
+        "Impactos: 4.100 por minuto",
+        "Potencia de impacto: 7,5J",
+        "Encastre: SDS Plus",
+        "Peso: 5,9kg",
+        "Presión acústica: 96,5 dB(A)",
+        "Llave selectora giro/percusión, colector de polvo, empuñadura con amortiguador de vibraciones"
+      ]
+    },
+    {
+      "nombre": "Pinza Multifunción Gamma G400AR 5 en 1",
+      "marca": "Gamma",
+      "descripcion": "Pinza multifunción Gamma G400AR 5 en 1 con cabezales intercambiables para pelar cables, engastar terminales, cortar cables, usar como tijera de electricista o alicate de línea, con sistema de cambio rápido e incluye estuche.",
+      "imagenUrl": "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1.png",
+      "precio": 54000,
+      "stock": 10,
+      "idCategoria": 7,
+      "imagenesSecundarias": [
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-2.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-3.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-4.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-5.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-6.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-7.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-8.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-9.jpg",
+        "/catalogo/gamma/herramientas-manuales/pinza-multifuncion-gamma-g400ar-5-en-1-10.jpg"
+      ],
+      "caracteristicas": [
+        "Kit con 5 cabezales intercambiables: pelacables, alicate de engaste, cortador de cables, tijera de electricista y alicate de línea",
+        "Sistema de cambio rápido",
+        "Cortador de cables: diámetro máximo 16mm",
+        "Crimpador de terminales: 1,5-6 / 22-10",
+        "Pelado de cables: AWG 10-22",
+        "Cortador de alambre: diámetro máximo 1,6mm",
+        "Incluye estuche",
+        "Garantía: 24 meses"
+      ]
+    }
+  ]
+}

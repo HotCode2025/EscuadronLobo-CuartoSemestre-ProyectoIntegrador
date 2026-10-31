@@ -406,14 +406,13 @@ const marcasLoop = [...marcas, ...marcas, ...marcas, ...marcas]
   }
 
   .beneficios-bar {
-    gap: 20px;
-    justify-content: flex-start;
-    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
   }
 
   .beneficio-item:nth-child(3) {
-    flex: 1 1 100%;
-    justify-content: center;
+    flex: initial;
   }
 
   .beneficio-icono {

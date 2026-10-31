@@ -475,7 +475,7 @@ function manejarErrorImagen(event) {
   min-height: 280px;
   background:
     linear-gradient(to right, rgba(13, 13, 13, 0.82) 0%, rgba(13, 13, 13, 0.55) 40%, transparent 70%),
-    url('/branding/hero-banner-limpio.jpg') left center / cover no-repeat;
+    url('/branding/hero-banner-limpio.jpg') 80% 35% / cover no-repeat;
   border-radius: 18px;
   padding: 36px 40px;
   margin-bottom: 30px;
@@ -523,6 +523,7 @@ function manejarErrorImagen(event) {
     padding: 28px 24px;
     text-align: center;
     justify-content: center;
+    background-position: 85% 30%;
   }
 
   .hero-texto p {

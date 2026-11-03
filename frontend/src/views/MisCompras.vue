@@ -73,13 +73,13 @@ onMounted(async () => {
 
 function formatearFecha(fechaISO) {
   if (!fechaISO) return 'N/A'
-  const fecha = new Date(fechaISO)
+  const fecha = new Date(fechaISO + 'Z')
   return fecha.toLocaleDateString('es-AR', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
     hour: '2-digit',
-    minute: '2-digit'
+    minute: '2-digit', timeZone: 'America/Argentina/Buenos_Aires'
   })
 }
 

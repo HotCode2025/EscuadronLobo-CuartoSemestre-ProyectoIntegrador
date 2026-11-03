@@ -59,7 +59,7 @@
         </button>
       </div>
       <p><strong>Usuario:</strong> {{ pedido.usuario?.nombre }} ({{ pedido.usuario?.email }})</p>
-      <p><strong>Fecha:</strong> {{ new Date(pedido.creadoEn).toLocaleDateString() }}</p>
+      <p><strong>Fecha:</strong> {{ new Date(pedido.creadoEn + 'Z').toLocaleDateString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' }) }}</p>
       <p><strong>Total:</strong> ${{ formatearPrecio(pedido.precioTotal) }}</p>
 
       <div v-for="item in pedido.herramientas" :key="item.idHerramientaPedido" class="item-linea">

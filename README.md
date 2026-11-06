@@ -1,8 +1,15 @@
-# 🐺 WolfForge
+![WolfForge](Documentacion/imagenes/portada-wolfforge.jpg)
 
 🔨 **E-commerce de herramientas, desarrollado por Escuadrón Lobo.**
 
 **Visitanos:** [wolfforge-frontend.onrender.com](https://wolfforge-frontend.onrender.com) ✨
+
+![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.7-6DB33F)
+![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vuedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-4169E1?logo=postgresql&logoColor=white)
+![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render&logoColor=white)
+![Mercado Pago](https://img.shields.io/badge/Pagos-Mercado%20Pago-00B1EA?logo=mercadopago&logoColor=white)
 
 ## 🔹 Descripción
 
@@ -29,6 +36,17 @@ Proyecto integrador de **Programación IV** — UTN FRSR.
 
 ## 🖥️ Tecnologías
 
+<div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" alt="Vite" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
+</div>
+
 ### Backend
 - **Java 21**
 - **Spring Boot 3.5.7**
@@ -53,7 +71,7 @@ Proyecto integrador de **Programación IV** — UTN FRSR.
 El proyecto está desplegado en Render:
 
 - **Sitio:** https://wolfforge-frontend.onrender.com
-- **API:** https://wolfforge-backend.onrender.com (Swagger en `/swagger-ui.html`)
+- **API:** https://wolfforge-backend.onrender.com (<img src="https://cdn.simpleicons.org/swagger/85EA2D" width="16" height="16" style="vertical-align:middle"/> Swagger en `/swagger-ui.html`)
 
 > ⚠️ El plan gratuito de Render "duerme" el backend después de un rato de inactividad. Si la primera request tarda 30-50 segundos en responder, es normal — se está despertando, no está colgado.
 
@@ -61,7 +79,7 @@ El proyecto está desplegado en Render:
 
 ## 💻 Cómo correrlo en tu máquina (desarrollo)
 
-Para desarrollar necesitás el backend y el frontend corriendo localmente. **Ya no hace falta ngrok**: como el backend ya vive en Render con HTTPS real, los pagos de punta a punta se prueban contra la demo en vivo, no hace falta un túnel propio por persona.
+Para desarrollar necesitás el backend y el frontend corriendo localmente. **No hace falta Docker ni ngrok**: el backend corre directo con el wrapper de Maven, y como ya vive en Render con HTTPS real, los pagos de punta a punta se prueban contra la demo en vivo (ver paso 5), no hace falta un túnel propio por persona.
 
 ### 📋 Requisitos previos
 
@@ -69,9 +87,11 @@ Para desarrollar necesitás el backend y el frontend corriendo localmente. **Ya 
 - **Node.js 18+** y npm
 - **PostgreSQL 14+** corriendo en tu máquina
 
-### 1. Crear la base de datos
+### 1. Clonar y crear la base de datos
 
 ```bash
+git clone https://github.com/HotCode2025/EscuadronLobo-CuartoSemestre-ProyectoIntegrador.git
+cd EscuadronLobo-CuartoSemestre-ProyectoIntegrador
 psql -U postgres -c "CREATE DATABASE wolfforge;"
 ```
 
@@ -112,7 +132,46 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-Queda en `http://localhost:8080`. La primera vez que arranca carga solo categorías, marcas y el catálogo de herramientas (no hay usuarios de ejemplo más que el admin).
+Queda en `http://localhost:8080`. La primera vez que arranca, con la base vacía, carga solo categorías, marcas y el catálogo de herramientas — no hay usuarios de ejemplo más que el admin.
+
+**Verificar que arrancó bien** — la consola debería terminar así, sin errores:
+
+![Arranque del backend](Documentacion/imagenes/verificacion-arranque.png)
+
+Y el health check debería responder `UP`:
+
+```bash
+curl http://localhost:8080/actuator/health
+```
+
+![Health check](Documentacion/imagenes/verificacion-health.png)
+
+Chequeá también que las tablas se crearon:
+
+```bash
+psql -U postgres -d wolfforge -c "\dt"
+```
+
+![Lista de tablas](Documentacion/imagenes/verificacion-tablas.png)
+
+Van a ser 9: las 7 entidades (`usuarios`, `herramientas`, `categorias`, `direcciones`, `pedidos`, `herramienta_pedidos`, `pagos`) más `herramienta_caracteristicas` y `herramienta_imagenes`, que Hibernate crea aparte por las listas `@ElementCollection` de `Herramienta`.
+
+Y que el catálogo se haya cargado:
+
+```bash
+psql -U postgres -d wolfforge -c "SELECT nombre, marca, precio FROM herramientas LIMIT 5;"
+```
+
+![Datos cargados](Documentacion/imagenes/verificacion-datos.png)
+
+**Cuenta de administrador** (se crea sola en el primer arranque, con la base vacía):
+
+| Campo | Valor |
+|---|---|
+| Email | `admin@wolfforge.com` |
+| Contraseña | `admin1234` |
+
+Con esa cuenta ya podés entrar al panel de administración. Para probar como usuario común, registrate normalmente desde el frontend.
 
 ### 4. Levantar el frontend
 
@@ -135,6 +194,8 @@ VITE_API_URL=https://wolfforge-backend.onrender.com
 
 Reiniciá `npm run dev` y listo: tu frontend local habla con el backend real de Render, que ya tiene todo configurado para redirigir y recibir el webhook correctamente.
 
+Para pagar, usá una tarjeta de prueba de Mercado Pago (por ejemplo Mastercard `5031 7557 3453 0604`, CVV `123`, vencimiento `11/30`) con el titular `APRO` para que el pago se apruebe automáticamente. Las cuentas de comprador/vendedor de prueba del equipo se comparten por canal interno, no acá.
+
 ---
 
 ## 🔧 Solución de problemas
@@ -144,10 +205,13 @@ Reiniciá `npm run dev` y listo: tu frontend local habla con el backend real de 
 - Revisá usuario/contraseña en `application.properties`.
 
 **Error 401/403 al usar el panel de administración**
-- Iniciá sesión con una cuenta que tenga rol `ADMINISTRADOR` (el usuario admin se carga solo la primera vez que arranca el backend con la base vacía).
+- Iniciá sesión con una cuenta que tenga rol `ADMINISTRADOR` (el usuario admin se carga solo la primera vez que arranca el backend con la base vacía — ver paso 3).
 
 **No me redirige bien después de pagar / el webhook no llega**
 - Si estás corriendo el backend local, revisá el paso 5 de instalación (apuntá tu frontend a la API de Render para probar pagos sin túnel propio).
+
+**"Algo salió mal..." al pagar, diciendo que una de las partes es de prueba**
+- Pasa si intentás pagar como invitado contra el vendedor de prueba en algunos casos. Iniciá sesión primero con una cuenta de comprador de prueba y reintentá.
 
 **La demo de Render tarda en responder**
 - Es el plan gratuito "despertando" tras inactividad (30-50 segundos la primera vez). No es un error.
@@ -157,13 +221,15 @@ Reiniciá `npm run dev` y listo: tu frontend local habla con el backend real de 
 ## 🗂️ Estructura del proyecto
 
 ```
-WolfForge/
+EscuadronLobo-CuartoSemestre-ProyectoIntegrador/
 ├── backend/
 │   ├── src/main/java/ar/com/wolfforge/
 │   │   ├── config/          # Configuraciones (CORS, carga de datos inicial)
 │   │   ├── controller/      # Controladores REST
 │   │   ├── dto/             # Data Transfer Objects (request/response)
 │   │   ├── entity/          # Entidades JPA (Usuario, Herramienta, Pedido, Pago, etc.)
+│   │   ├── enums/           # Enums (UsuarioRol, EstadoPedido, EstadoPago)
+│   │   ├── exceptions/      # Manejo centralizado de errores
 │   │   ├── mapper/          # Conversión entidad ↔ DTO
 │   │   ├── repository/      # Repositorios JPA
 │   │   ├── security/        # JWT, filtros de seguridad
@@ -173,13 +239,16 @@ WolfForge/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/      # Componentes reutilizables (Navbar, Footer, etc.)
-│   │   ├── views/            # Vistas/páginas
-│   │   ├── router/           # Configuración de rutas
-│   │   ├── stores/            # Stores de Pinia (auth, carrito, etc.)
-│   │   └── services/          # Cliente Axios
+│   │   ├── composables/     # Lógica reutilizable (composables de Vue)
+│   │   ├── views/           # Vistas/páginas
+│   │   ├── router/          # Configuración de rutas
+│   │   ├── stores/          # Stores de Pinia (auth, carrito, etc.)
+│   │   ├── services/        # Cliente Axios
+│   │   └── utils/           # Utilidades varias
 │   ├── public/
 │   └── package.json
-├── render.yaml               # Blueprint de deploy (backend + frontend + base de datos)
+├── Documentacion/             # Brief, manuales, diagramas e imágenes del README
+├── render.yaml                # Blueprint de deploy (backend + frontend + base de datos)
 └── README.md
 ```
 
@@ -201,7 +270,7 @@ Las credenciales de base de datos y el JWT secret se generan automáticamente. L
 
 - Autenticación basada en **JWT**
 - Roles de usuario: `ADMINISTRADOR` y `USUARIO`
-- Validación de firma en los webhooks de Mercado Pago
+- Validación de firma HMAC-SHA256 en los webhooks de Mercado Pago (header `x-signature`)
 - `application.properties` está en `.gitignore`: nunca se sube con credenciales reales. El repo solo versiona `application.properties.example`, con placeholders.
 
 ⚠️ **Importante:** este proyecto usa exclusivamente credenciales de **prueba (sandbox)** de Mercado Pago — nunca credenciales de producción.
